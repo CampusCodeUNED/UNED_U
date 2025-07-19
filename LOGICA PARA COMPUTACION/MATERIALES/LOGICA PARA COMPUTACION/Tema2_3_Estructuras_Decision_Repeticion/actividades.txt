@@ -1,0 +1,36 @@
+Leer y analizar materiales didáctico: Lectura oficial Cap. 3: Algoritmos, pseudocódigo y diagramas de flujo. 
+
+Si tiene alguna consulta puede hacerla mediante el foro de consultas o por correo interno.
+
+Entregar proyecto No. 1.
+
+Realizar Proyecto No. 2.
+
+Participar en la segunda tutoría.
+
+--------
+Recursos:
+Optional Reading: While Loop https://www.cs.utah.edu/~germain/PPS/Topics/while_loops.html 
+Optional Reading: For Loop https://www.cs.utah.edu/~germain/PPS/Topics/for_loops.html 
+Diagramas de flujo.ppt
+
+Videos:
+Variables DFD 		https://youtu.be/962HSp_mMfg?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Variables Pseint 	https://youtu.be/kMxbcbmAZZs?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Constantes DFD 		https://youtu.be/0qENHVj8TmY?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Constantes PSeint 	https://youtu.be/W9NM_rxqMWo?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Si-Sino DFD 		Si-SinoDFD.wmv
+Si-Sino PSeint 		https://youtu.be/D4vIJvtemH0?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Si Anidado DFD 		https://www.youtube.com/watch?v=o44l1i9_JCY&list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy&index=3
+Si Anidado Pseint 	https://www.youtube.com/watch?v=vpuG_byGNb4&list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy&index=4
+Segun Pseint		https://youtu.be/Z8v8dcX5NXg?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Opcion De Otro Modo	https://youtu.be/kTpq3_ka2_o?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Mientras (control numerico) DFD		https://youtu.be/-wwJm_JHRvI?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Mientras (control numerico) Pseint	https://youtu.be/XN0QmgKY1PE?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Mientras (control usuario) DFD		https://youtu.be/s3qIO0S2J0Q?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Mientras (control usuario) PSeint	CiclocondusuarioPseint.wmv
+Repetir (Diferencia con Mientras)	RepetiryMientras.wmv
+Numero Aleatorio			https://youtu.be/7qny7y1GGn4?list=PLHx4NTu7Ezg_ZekrfWp_Kg3d7Bk7xhgJy
+Menu	menu.rar
+
+

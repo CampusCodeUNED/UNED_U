@@ -1,0 +1,25 @@
+Tema 4 Arreglos
+
+Leer y analizar materiales didáctico: Lectura oficial Cap. 4: Arreglos. 
+Si tiene alguna consulta puede hacerla mediante el foro de consultas o por correo interno.
+Entregar proyecto No. 2.
+Realizar proyecto No. 3.
+Participar en la tercera tutoría.
+
+Materiales: 
+Lectura oficial cap4 arreglos
+
+Vectores y matrices power point
+
+Video: Introduccion a Arreglos
+https://aprende.uned.ac.cr/pluginfile.php/2954442/mod_resource/content/8/Arreglos%20V%C3%ADdeo.mp4
+
+Video: Esperar y otros
+https://aprende.uned.ac.cr/pluginfile.php/2954444/mod_resource/content/8/Esperar%20y%20otros.mp4
+
+
+
+
+
+
+
