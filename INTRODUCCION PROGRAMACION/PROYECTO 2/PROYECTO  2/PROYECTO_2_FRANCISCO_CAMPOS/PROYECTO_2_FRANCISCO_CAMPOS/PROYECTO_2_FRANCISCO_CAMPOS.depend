@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1713902457 source:c:\users\usuario\desktop\uned\2024\i_cuatri_2024\progra\proyecto 2\proyecto  2\proyecto_2_francisco_campos\proyecto_2_francisco_campos\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdexcept>
+	<cctype>
+	<limits>
+

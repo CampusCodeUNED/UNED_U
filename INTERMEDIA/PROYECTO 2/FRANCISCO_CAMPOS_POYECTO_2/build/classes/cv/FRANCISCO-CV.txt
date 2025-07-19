@@ -1,0 +1,35 @@
+==========================================================================
+|                            Currículum Vitae                             |
+==========================================================================
+ Datos Personales:
+--------------------------------------------------------------------------
+ ID                    : 2
+ Cédula                : 15678693
+ Nombre                : FRANCISCO
+ Dirección             : HEREDIA
+ Correo Electrónico    :  SAN PABLO
+ Fecha Nacimiento      : FRANCISCOCAMPOS@UNED.CR
+ Nacionalidad          : 21/07/1993
+ Estado Civil          : CR
+ Objetivo Profesional  : CASADO
+--------------------------------------------------------------------------
+ Experiencia Laboral:
+--------------------------------------------------------------------------
+ ID                    : 1
+ Nombre Empresa        : Dev SA
+ Puesto                : Desarrollador
+ Fecha Inicio          : 21/07/2014
+ Fecha Fin             : 21/07/2022
+ Descripción           : Desarrollo de aplicaciones móviles
+--------------------------------------------------------------------------
+ Información de Contacto:
+--------------------------------------------------------------------------
+ ID                    : 1
+ Teléfono              : 123-456-7890
+ Dirección Correo      : mariosanches@uned.cr
+ País                  : CR
+ Ciudad                : HEREDIA
+ Código Postal         : 10410
+--------------------------------------------------------------------------
+|                                 FIN                                    |
+--------------------------------------------------------------------------

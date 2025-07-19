@@ -1,0 +1,35 @@
+==========================================================================
+|                            Currículum Vitae                             |
+==========================================================================
+ Datos Personales:
+--------------------------------------------------------------------------
+ ID                    : 1
+ Cédula                : 01147505606
+ Nombre                : Mario
+ Dirección             : PUNTARENAS
+ Correo Electrónico    :  COTO BRUS
+ Fecha Nacimiento      : mariosanchez22@uned
+ Nacionalidad          : cr
+ Estado Civil          : 21/07/1991
+ Objetivo Profesional  : CR
+--------------------------------------------------------------------------
+ Experiencia Laboral:
+--------------------------------------------------------------------------
+ ID                    : 1
+ Nombre Empresa        : Dev SA
+ Puesto                : Desarrollador
+ Fecha Inicio          : 21/07/2014
+ Fecha Fin             : 21/07/2022
+ Descripción           : Desarrollo de aplicaciones móviles
+--------------------------------------------------------------------------
+ Información de Contacto:
+--------------------------------------------------------------------------
+ ID                    : 2
+ Teléfono              : 789-456-1235
+ Dirección Correo      : FRANCISCOCAMPOS@UNED.CR
+ País                  : COSTA RICA
+ Ciudad                : SAN CARLOS
+ Código Postal         : 42035
+--------------------------------------------------------------------------
+|                                 FIN                                    |
+--------------------------------------------------------------------------
