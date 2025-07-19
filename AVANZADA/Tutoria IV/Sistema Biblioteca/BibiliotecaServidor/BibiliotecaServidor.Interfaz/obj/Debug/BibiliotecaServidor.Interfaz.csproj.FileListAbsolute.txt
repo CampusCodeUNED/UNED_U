@@ -1,0 +1,35 @@
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.exe.config
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Datos.dll
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.dll
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Datos.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csprojResolveAssemblyReference.cache
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.Properties.Resources.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csproj.GenerateResource.Cache
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.frmServidor.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\Newtonsoft.Json.dll
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\Newtonsoft.Json.xml
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.exe.config
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.pdb
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.exe.config
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.exe
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Interfaz.pdb
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Datos.dll
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.dll
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\Newtonsoft.Json.dll
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Datos.pdb
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.pdb
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\bin\Debug\Newtonsoft.Json.xml
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csprojAssemblyReference.cache
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.frmServidor.resources
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.Properties.Resources.resources
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csproj.GenerateResource.cache
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csproj.CoreCompileInputs.cache
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.csproj.CopyComplete
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.exe
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\Programa tutorias\Tutoria IV\Sistema Biblioteca\BibiliotecaServidor\BibiliotecaServidor.Interfaz\obj\Debug\BibiliotecaServidor.Interfaz.pdb

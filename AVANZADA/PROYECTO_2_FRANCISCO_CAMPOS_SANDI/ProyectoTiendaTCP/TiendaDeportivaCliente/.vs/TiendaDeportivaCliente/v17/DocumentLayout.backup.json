@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|c:\\users\\personal\\desktop\\iii cuatri 2024\\avanzada\\proyecto_2_francisco_campos_sandi\\proyectotiendatcp\\tiendadeportivacliente\\tiendadeportivacliente.interfaz\\clientetcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\clientetcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmreservaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmreservaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmconsultareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmconsultareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.entidades\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|solutionrelative:tiendadeportivacliente.entidades\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|solutionrelative:TiendaDeportivaCliente.Entidades\\Sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|solutionrelative:TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B1D411-4073-49BD-996F-B870CDD25E10}|TiendaDeportivaCliente.Entidades\\TiendaDeportivaCliente.Entidades.csproj|solutionrelative:TiendaDeportivaCliente.Entidades\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:TiendaDeportivaCliente.Interfaz\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmreservaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmreservaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\tiendadeportivacliente.interfaz\\frmconsultareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:tiendadeportivacliente.interfaz\\frmconsultareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO 2\\P2 VERSION FINAL\\ProyectoTiendaTCP\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{663C7FD6-0541-4916-B670-2E85993C886D}|TiendaDeportivaCliente.Interfaz\\TiendaDeportivaCliente.Interfaz.csproj|solutionrelative:TiendaDeportivaCliente.Interfaz\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO 2\\P2 VERSION FINAL\\ProyectoTiendaTCP\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PROYECTO 2\\P2 VERSION FINAL\\ProyectoTiendaTCP\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO 2\\P2 VERSION FINAL\\ProyectoTiendaTCP\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "RelativeToolTip": "..\\..\\..\\PROYECTO 2\\P2 VERSION FINAL\\ProyectoTiendaTCP\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAxwGAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:31:52.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteTcp.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\ClienteTcp.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\ClienteTcp.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\ClienteTcp.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\ClienteTcp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:44:17.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Reserva.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Entidades\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Reserva.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Entidades\\Reserva.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:06:41.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAxwFMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:44:37.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmReservaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA0wGEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:45:36.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmReservaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmReservaArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:45:32.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmConsultaReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:45:24.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmConsultaReserva.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmConsultaReserva.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:45:24.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\FrmCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\FrmCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:44:34.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\App.config",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\App.config",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\App.config",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-10T18:53:09.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Interfaz\\Program.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Interfaz\\Program.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Interfaz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:39:43.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Sucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Entidades\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Sucursal.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Entidades\\Sucursal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:06:44.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArticuloSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Entidades\\ArticuloSucursal.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:06:01.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Articulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportivaCliente.Entidades\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\III CUATRI 2024\\AVANZADA\\PROYECTO_2_FRANCISCO_CAMPOS_SANDI\\ProyectoTiendaTCP\\TiendaDeportivaCliente\\TiendaDeportivaCliente.Entidades\\Articulo.cs",
+              "RelativeToolTip": "TiendaDeportivaCliente.Entidades\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:05:41.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

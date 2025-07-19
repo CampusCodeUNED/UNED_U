@@ -1,0 +1,582 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|c:\\users\\anton\\onedrive\\escritorio\\iii cuatri 2024\\avanzada\\tiendadeportiva\\tiendadeportiva\\capaaccesodatos\\cad_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmarticulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmarticulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmarticulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmarticulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capalogicanegocio\\cln_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capalogicanegocio\\cln_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaentidades\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaentidades\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaaccesodatos\\cad_sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaaccesodatos\\cad_articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaaccesodatos\\cad_articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_articulosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaaccesodatos\\cad_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capaaccesodatos\\cad_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capaaccesodatos\\cad_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\tiendadeportiva\\capapresentacion\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F047DF5-653C-4ED2-A7B2-BB1105AEFBC8}|TiendaDeportiva\\TiendaDeportiva.csproj|solutionrelative:tiendadeportiva\\capapresentacion\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:43:29.15Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswJUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:45:37.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:41:50.407Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:43:33.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmSucursal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:43:05.916Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs*",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmSucursal.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T04:13:00.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T20:14:15.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:43:27.969Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmArticuloSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:25:54.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmArticuloSucursal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmArticuloSucursal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:43:26.145Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:19:31.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:35:34.828Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmAdministrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:35:32.234Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CLN_Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Sucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Sucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Sucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Sucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:43.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CLN_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Cliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Cliente.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Cliente.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Cliente.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:38.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CLN_Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Categoria.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Categoria.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Categoria.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Categoria.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA0wBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:34.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmAdministrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T20:13:40.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CLN_Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Articulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Articulo.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Articulo.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Articulo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:21.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CLN_ArticuloSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_ArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_ArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_ArticuloSucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_ArticuloSucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:28.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CLN_Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Administrador.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Administrador.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaLogicaNegocio\\CLN_Administrador.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaLogicaNegocio\\CLN_Administrador.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:15.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Sucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Sucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\Sucursal.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBAwCAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:09.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Cliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\Cliente.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Cliente.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\Cliente.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:06.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\Categoria.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Categoria.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:04.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ArticuloSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\ArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\ArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\ArticuloSucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\ArticuloSucursal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:02.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Articulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\Articulo.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Articulo.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\Articulo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:32:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CAD_Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Sucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Sucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Sucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Sucursal.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA2wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:40.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Administrador.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaEntidades\\Administrador.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaEntidades\\Administrador.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaEntidades\\Administrador.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:31:56.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CAD_Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Articulo.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Articulo.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Articulo.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Articulo.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAA2wG8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:33.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CAD_Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Administrador.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Administrador.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Administrador.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:31.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CAD_Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Categoria.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Categoria.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Categoria.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Categoria.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA2wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:28.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CAD_ArticuloSucursal.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_ArticuloSucursal.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_ArticuloSucursal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_ArticuloSucursal.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_ArticuloSucursal.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA2wDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:36.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CAD_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Cliente.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Cliente.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaAccesoDatos\\CAD_Cliente.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaAccesoDatos\\CAD_Cliente.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA2wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:30:39.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FrmCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.Designer.cs",
+              "RelativeDocumentMoniker": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\TiendaDeportiva\\TiendaDeportiva\\CapaPresentacion\\FrmCliente.Designer.cs",
+              "RelativeToolTip": "TiendaDeportiva\\CapaPresentacion\\FrmCliente.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:29:22.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.exe.config
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csprojAssemblyReference.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csproj.GenerateResource.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csproj.CoreCompileInputs.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.frmCliente.resources
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.exe.config
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.frmCliente.resources
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csproj.GenerateResource.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\ClienteTCP\obj\Debug\ClienteTCP.pdb

@@ -1,0 +1,35 @@
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.exe.config
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmAgregarAutor.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmAgregarLibro.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmConsultarLibros.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmPrincipal.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.Properties.Resources.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csproj.GenerateResource.Cache
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csprojResolveAssemblyReference.cache
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.dll
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\Newtonsoft.Json.dll
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\Newtonsoft.Json.xml
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.exe.config
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.pdb
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.exe.config
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.exe
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaCliente.Interfaz.pdb
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\BibiliotecaServidor.Entidades.dll
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\Newtonsoft.Json.dll
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\bin\Debug\Newtonsoft.Json.xml
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csprojAssemblyReference.cache
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmAgregarAutor.resources
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmAgregarLibro.resources
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmConsultarLibros.resources
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.frmPrincipal.resources
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.Properties.Resources.resources
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csproj.GenerateResource.cache
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csproj.CoreCompileInputs.cache
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.csproj.CopyComplete
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.exe
+D:\1\4-Tutoría 0830\Tutoria IV\Sistema Biblioteca\BibliotecaCliente\BibiliotecaCliente.Interfaz\obj\Debug\BibiliotecaCliente.Interfaz.pdb

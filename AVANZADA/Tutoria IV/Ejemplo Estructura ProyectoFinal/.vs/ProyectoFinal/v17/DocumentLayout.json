@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19D06232-986D-4FFF-8E48-73E55371A5D2}|Principal\\Principal.csproj|c:\\users\\anton\\onedrive\\escritorio\\iii cuatri 2024\\avanzada\\tutoria iv\\ejemplo estructura proyectofinal\\principal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19D06232-986D-4FFF-8E48-73E55371A5D2}|Principal\\Principal.csproj|solutionrelative:principal\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E614C7-384B-4516-8671-1F6E53CD968F}|ClienteTCP\\ClienteTCP.csproj|c:\\users\\anton\\onedrive\\escritorio\\iii cuatri 2024\\avanzada\\tutoria iv\\ejemplo estructura proyectofinal\\clientetcp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42E614C7-384B-4516-8671-1F6E53CD968F}|ClienteTCP\\ClienteTCP.csproj|solutionrelative:clientetcp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E614C7-384B-4516-8671-1F6E53CD968F}|ClienteTCP\\ClienteTCP.csproj|c:\\users\\anton\\onedrive\\escritorio\\iii cuatri 2024\\avanzada\\tutoria iv\\ejemplo estructura proyectofinal\\clientetcp\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E614C7-384B-4516-8671-1F6E53CD968F}|ClienteTCP\\ClienteTCP.csproj|solutionrelative:clientetcp\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\ClienteTCP\\App.config",
+              "RelativeDocumentMoniker": "ClienteTCP\\App.config",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\ClienteTCP\\App.config",
+              "RelativeToolTip": "ClienteTCP\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-21T04:10:56.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\Principal\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Principal\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\Principal\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Principal\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:09:53.502Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\ClienteTCP\\frmCliente.Designer.cs",
+              "RelativeDocumentMoniker": "ClienteTCP\\frmCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Escritorio\\III CUATRI 2024\\AVANZADA\\Tutoria IV\\Ejemplo Estructura ProyectoFinal\\ClienteTCP\\frmCliente.Designer.cs",
+              "RelativeToolTip": "ClienteTCP\\frmCliente.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:09:31.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

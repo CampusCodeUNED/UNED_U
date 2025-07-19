@@ -1,0 +1,57 @@
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Form1.resources
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+D:\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Form1.resources
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\Henry Méndez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c#\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.Cache
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Form1.resources
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\Henry Mendez\Dropbox\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.Cache
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Form1.resources
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+D:\Google Drive\UNED Henry\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\4-Tutoría 0830\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.Cache
+D:\x\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+D:\x\Ejemplos TCP\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.Cache
+D:\Google Drive\UNED Henry\2017\I Cuatrimestre\Elab Instrumentos\Programas tutorias\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.frmCliente.resources
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csprojResolveAssemblyReference.cache
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.frmCliente.resources
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.Cache
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+D:\Google Drive\UNED\Tutorias\Programacion Avanzada c# 830\4-Tutoría 0830\Tutoria IV\Ejemplo Simple\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe.config
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.frmCliente.resources
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.exe
+C:\Users\Usuario\Desktop\Tutoria IV\ClienteTCP\ClienteTCP\obj\x86\Debug\ClienteTCP.pdb

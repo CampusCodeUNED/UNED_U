@@ -1,0 +1,34 @@
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\Principal.exe.config
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\Principal.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\Principal.pdb
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ClienteTCP.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ServidorTCP.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ClienteTCP.pdb
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ClienteTCP.exe.config
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ServidorTCP.pdb
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\bin\Debug\ServidorTCP.exe.config
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.frmPrincipal.resources
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.Properties.Resources.resources
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.csproj.CopyComplete
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.exe
+C:\Users\Henry Méndez\source\repos\ProyectoFinal\Principal\obj\Debug\Principal.pdb
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\Principal.exe.config
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\Principal.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\Principal.pdb
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ClienteTCP.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ServidorTCP.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ClienteTCP.pdb
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ClienteTCP.exe.config
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ServidorTCP.pdb
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\bin\Debug\ServidorTCP.exe.config
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.frmPrincipal.resources
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.Properties.Resources.resources
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.csproj.Up2Date
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.exe
+C:\Users\anton\OneDrive\Escritorio\III CUATRI 2024\AVANZADA\Tutoria IV\Ejemplo Estructura ProyectoFinal\Principal\obj\Debug\Principal.pdb
