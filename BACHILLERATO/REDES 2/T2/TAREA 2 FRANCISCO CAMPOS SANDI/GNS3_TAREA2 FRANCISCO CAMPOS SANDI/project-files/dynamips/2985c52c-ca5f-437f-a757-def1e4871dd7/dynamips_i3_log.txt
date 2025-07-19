@@ -1,0 +1,26 @@
+Mar 10 13:28:00.036 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 10 13:28:00.036 HYPERVISOR: Started on IP = localhost, TCP port = 58726.
+Mar 10 13:28:00.550 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 10 13:28:00.550 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\T2\T2\GNS3_TAREA2 FRANCISCO CAMPOS SANDI\project-files\dynamips 
+Mar 10 13:28:00.551 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\T2\T2\GNS3_TAREA2 FRANCISCO CAMPOS SANDI\project-files\dynamips
+Mar 10 13:28:00.551 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\T2\T2\GNS3_TAREA2 FRANCISCO CAMPOS SANDI\project-files\dynamips\2985c52c-ca5f-437f-a757-def1e4871dd7 
+Mar 10 13:28:00.551 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\T2\T2\GNS3_TAREA2 FRANCISCO CAMPOS SANDI\project-files\dynamips\2985c52c-ca5f-437f-a757-def1e4871dd7
+Mar 10 13:28:00.551 HYPERVISOR: exec_cmd: vm create S1 3 c3725 
+Mar 10 13:28:00.552 VM: VM S1 created.
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: vm set_con_tcp_port S1 5005 
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: c3725 get_mac_addr S1 
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: vm set_disk0 S1 1 
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: vm set_exec_area S1 64 
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 10 13:28:00.553 HYPERVISOR: exec_cmd: vm set_idle_pc S1 0x602467a4 
+Mar 10 13:28:00.554 HYPERVISOR: exec_cmd: vm set_ios S1 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 10 13:28:00.555 HYPERVISOR: exec_cmd: c3725 set_mac_addr S1 c203.0828.0000 
+Mar 10 13:28:00.555 HYPERVISOR: exec_cmd: vm set_nvram S1 256 
+Mar 10 13:28:00.555 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 10 13:28:00.555 HYPERVISOR: exec_cmd: vm slot_add_binding S1 1 0 NM-16ESW 
+Mar 10 13:28:01.711 HYPERVISOR: exec_cmd: nio create_udp udp-ca5ba97d-316d-473a-92fe-32299722cde4 10010 127.0.0.1 10011 
+Mar 10 13:28:01.976 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 0 udp-ca5ba97d-316d-473a-92fe-32299722cde4 
+Mar 10 13:28:01.977 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 10 13:28:01.999 HYPERVISOR: exec_cmd: nio create_udp udp-f19f2c34-c6d0-4ac6-89c0-2d5b76428b74 10014 127.0.0.1 10015 
+Mar 10 13:28:02.001 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 1 udp-f19f2c34-c6d0-4ac6-89c0-2d5b76428b74 
+Mar 10 13:28:02.001 HYPERVISOR: exec_cmd: vm get_status S1 

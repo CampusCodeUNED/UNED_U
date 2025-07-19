@@ -1,0 +1,253 @@
+Parte 1: Armado de la red y configuración de los parámetros básicos de los dispositivos
+
+Paso 1: Realice la topología tal como se muestra en la Figura 1
+
+IMAGEN DEL GNS3
+
+Paso 2: Configuración de los parámetros básicos del router
+
+a) Asignar el nombre al router como se ve en la Figura 1
+R1	R2
+enable 
+configure terminal
+hostname R1	enable 
+configure terminal
+hostname R2
+
+b) Deshabilite el DNS en cada router para que evite traducir los comandos mal introducidos como si fueran nombres de Hosts
+R1	R2
+no ip domain lookup	no ip domain lookup
+
+c) Asigne proyecto como contraseña cifrada del modo EXEC privilegiado en cada router 
+R1	R2
+enable proyecto class	enable proyecto class
+
+d) Asigne proyecto-dos como la contraseña de la consola y active el inicio de sesión en el router
+R1	R2
+line console 0
+password proyecto-dos
+login	line console 0
+password proyecto-dos
+login
+
+e) Asigne proyecto-dos como la contraseña VTY y active el inicio de sesión en el router 
+R1	R2
+line vty 0 15
+password proyecto-dos
+login	line vty 0 15
+password proyecto-dos
+login
+
+f) En el router cifre las contraseñas de texto sin formato
+R1	R2
+service password-encryption	service password-encryption
+
+g) En el router cree un aviso que advierta a todo el que acceda al dispositivo que el “Solamente Usuarios Autorizados”
+R1	R2
+banner motd $ Solamente Usuarios Autorizados $	banner motd $ Solamente Usuarios Autorizados $
+
+h) Ajuste el reloj del router
+R1	R2
+clock set 20:30:00 15 may 2025	clock set 20:30:00 15 may 2025
+
+i) Guarde la configuración del router
+R1	R2
+exit
+copy running-config startup-config	exit
+copy running-config startup-config
+
+Nota: Utilice el signo de interrogación (?) para poder determinar la secuencia correcta de parámetros necesarios para ejecutar los comandos.
+
+
+Paso 3: Configuración de los parámetros básicos para cada switch
+
+a) Asignar el nombre a los switches como se ve en la Figura 1
+R1	R2
+enable 
+configure terminal
+hostname S1	enable 
+configure terminal
+hostname S2
+
+b) Deshabilite el DNS en cada router para que evite traducir los comandos mal introducidos como si fueran nombres de Hosts
+R1	R2
+no ip domain-lookup	no ip domain-lookup
+
+c) Asigne proyecto como contraseña cifrada del modo EXEC privilegiado en cada switch
+R1	R2
+enable secret proyecto 	enable secret proyecto
+
+d) Asigne proyecto-dos como la contraseña de la consola y active el inicio de sesión en cada switch
+R1	R2
+line console 0
+password proyecto-dos
+login	line console 0
+password proyecto-dos
+login
+
+e) Asigne proyecto-dos como la contraseña VTY y active el inicio de sesión en cada switch
+R1	R2
+line vty 0 15
+password proyecto-dos
+login	line vty 0 15
+password proyecto-dos
+login
+
+f) En cada switch cifre las contraseñas de texto sin formato
+R1	R2
+service password-encryption	service password-encryption
+
+g) En cada switch cree un aviso que advierta a todo el que acceda al dispositivo que el “Solamente Usuarios Autorizados”
+R1	R2
+banner motd $ Solamente Usuarios Autorizados $	banner motd $ Solamente Usuarios Autorizados $
+
+h) Ajuste el reloj de cada switch
+R1	R2
+clock set 20:30:00 15 may 2025	clock set 20:30:00 15 may 2025
+
+i) Guarde la configuración de cada switch
+R1	R2
+copy running-config startup-config	copy running-config startup-config
+
+Nota: Utilice el signo de interrogación (?) para poder determinar la secuencia correcta de parámetros necesarios para ejecutar los comandos.
+
+Paso 4: Configure las PC
+a) Consulte la tabla 1 para obtener la información de direcciones de los equipos host
+PC-A A PC-B	PC-B A PC-A
+ip 192.168.20.3 255.255.255.0 192.168.20.1	ip 192.168.30.3 255.255.255.0 192.168.30.1
+
+Parte 2: Crear redes VLAN y asignar puertos de switch
+
+En la Parte 2, se van a crear VLAN como se especifica en la tabla 2 en ambos switches. A continuación, asignará las VLAN a la interfaz adecuada y verificará los valores de configuración. Complete las siguientes tareas en cada switch.
+
+Paso 1: Crear las VLAN en los switches
+
+a) Asigne los puertos usados a la VLAN apropiada (especificada en la tabla 2) y configúrelos para el modo de acceso
+S1	S2
+vlan database
+ vlan 10 name UNED
+ vlan 20 name SEDE
+ vlan 30 name OPERACIONES
+ vlan 999 name PARQUEO
+ vlan 1000 name NATIVE
+exit	vlan database
+ vlan 10 name UNED
+ vlan 20 name SEDE
+ vlan 30 name OPERACIONES
+ vlan 999 name PARQUEO
+ vlan 1000 name NATIVE
+exit
+
+b) Verifique que las VLAN estén asignadas a las interfaces correctas
+S1	S2
+show vlan brief	show vlan brief
+
+c) Asigne todos los puertos no utilizados de los switches a la VLAN Parqueo, los deben configurar en modo acceso y apáguelos de forma administrativa
+S1	S2
+interface range f1/2 - 4 , f1/7 – 15
+switchport mode access
+switchport access vlan 999
+shutdown	interface range f1/0 , f1/2 – 5 , f1/7 – 15
+switchport mode access
+switchport access vlan 999
+shutdown
+
+Nota: El comando range es útil para llevar a cabo este punto
+
+Paso 2: Asignar las VLAN a las interfaces del switch correctas
+
+a) Ejecute el comando para verificar las asignaciones de IPv4 para cada interfaz
+S1	S2
+interface range f1/2 - 4 , f1/7 – 15
+switchport mode access
+switchport access vlan 999
+shutdown	interface range f1/0 , f1/2 – 5 , f1/7 – 15
+switchport mode access
+switchport access vlan 999
+shutdown
+
+b) Ejecute el comando para verificar las asignaciones de IPv6 para cada interfaz
+S1	S2
+show vlan brief	show vlan brief
+
+AGREGAR IMAGEN DEL GNS3
+
+Parte 3: Configurar un enlace troncal 802.1Q entre los switches
+
+En la Parte 3, configurará manualmente la interfaz E1 como troncal.
+
+Paso 1: Configure manualmente la interfaz troncal E1 en el interruptor S1 y S2
+a) Configure la conexión troncal estática en la interfaz E1 para ambos switches 
+S1	S2
+interface f0/1
+switchport mode trunk	interface f0/1
+switchport mode trunk
+
+b) Establezca la VLAN nativa en 1000 en ambos switches.
+S1	S2
+switchport trunk native vlan 1000	switchport trunk native vlan 1000
+
+c) Especifique que las VLAN 10, 20, 30 y 1000 pueden cruzar el troncal
+S1	S2
+switchport trunk allowed vlan 10,20,30,1000	switchport trunk allowed vlan 10,20,30,1000
+
+d) Verifique los puertos de enlace troncal, la VLAN nativa y las VLAN permitidas en el troncal
+S1	S2
+show interfaces trunk	show interfaces trunk
+
+AGREGAR IMAGEN DEL GNS3
+
+Paso 2: Configurar manualmente la interfaz troncal de S1 E5
+a) Configure la interfaz E5 de S1 con los mismos parámetros de troncal que E1. Este es el troncal del router
+R1
+configure terminal
+interface FastEthernet1/5
+switchport mode trunk
+switchport trunk encapsulation dot1q
+switchport trunk allowed vlan all
+
+b) Guardar la configuración en ejecución en el archivo de configuración de inicio
+S1
+copy running-config startup-config
+
+c) Verifique la conexión troncal.
+S1
+show interfaces trunk
+
+Pregunta: ¿Qué sucede si f0/0 en R1 está caído?
+INGRESAR IMAGEN GNS3
+
+Parte 4: Configure el enrutamiento entre VLAN en el router
+
+Paso 1: Configurar el router
+
+a) Active la interfaz F0/0 según sea necesario en el router
+R1
+Interface f0/0
+no shutdown
+exit
+
+b) Configure las subinterfaces para cada VLAN como se especifica en la tabla de direcciones IP. Todas las subinterfaces utilizan encapsulación 802.1Q. Asegúrese de que la subinterfaz de la VLAN nativa no tenga asignada una dirección IP. Incluya una descripción para cada subinterfaz.
+R1
+configure terminal
+interface FastEthernet0/0.10
+description UNED VLAN
+encapsulation dot1q 10
+ip address 192.168.10.1 255.255.255.0
+
+interface FastEthernet0/0.20
+description SEDE VLAN
+encapsulation dot1q 20
+ip address 192.168.10.1 255.255.255.0
+
+interface FastEthernet0/0.30
+description OPERACIONES VLAN
+encapsulation dot1q 30
+ip address 192.168.10.1 255.255.255.0
+
+interface FastEthernet0/0.1000
+description Native VLAN
+encapsulation dot1q 1000 native
+no ip address
+
+c) Verifique que las

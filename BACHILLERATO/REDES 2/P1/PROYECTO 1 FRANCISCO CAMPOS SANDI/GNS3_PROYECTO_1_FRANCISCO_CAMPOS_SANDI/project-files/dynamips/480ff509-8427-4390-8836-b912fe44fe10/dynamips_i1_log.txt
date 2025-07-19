@@ -1,0 +1,26 @@
+Mar 20 22:15:59.324 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 20 22:15:59.325 HYPERVISOR: Started on IP = localhost, TCP port = 59182.
+Mar 20 22:15:59.568 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 20 22:15:59.568 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips 
+Mar 20 22:15:59.570 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips
+Mar 20 22:15:59.571 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\10254023-7097-4be0-83cb-3a9a8b20db07 
+Mar 20 22:15:59.571 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\10254023-7097-4be0-83cb-3a9a8b20db07
+Mar 20 22:15:59.571 HYPERVISOR: exec_cmd: vm create S1 3 c3725 
+Mar 20 22:15:59.572 VM: VM S1 created.
+Mar 20 22:15:59.572 HYPERVISOR: exec_cmd: vm set_con_tcp_port S1 5002 
+Mar 20 22:15:59.573 HYPERVISOR: exec_cmd: c3725 get_mac_addr S1 
+Mar 20 22:15:59.573 HYPERVISOR: exec_cmd: vm set_disk0 S1 1 
+Mar 20 22:15:59.573 HYPERVISOR: exec_cmd: vm set_exec_area S1 64 
+Mar 20 22:15:59.574 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 20 22:15:59.574 HYPERVISOR: exec_cmd: vm set_idle_pc S1 0x602467a4 
+Mar 20 22:15:59.575 HYPERVISOR: exec_cmd: vm set_ios S1 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Mar 20 22:15:59.575 HYPERVISOR: exec_cmd: c3725 set_mac_addr S1 c203.0198.0000 
+Mar 20 22:15:59.576 HYPERVISOR: exec_cmd: vm set_nvram S1 256 
+Mar 20 22:15:59.576 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 20 22:15:59.576 HYPERVISOR: exec_cmd: vm slot_add_binding S1 1 0 NM-16ESW 
+Mar 20 22:16:01.321 HYPERVISOR: exec_cmd: nio create_udp udp-34e75db7-3927-400c-a9f3-4db9b824d30b 10002 127.0.0.1 10003 
+Mar 20 22:16:01.642 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 4 udp-34e75db7-3927-400c-a9f3-4db9b824d30b 
+Mar 20 22:16:01.642 HYPERVISOR: exec_cmd: vm get_status S1 
+Mar 20 22:16:02.508 HYPERVISOR: exec_cmd: nio create_udp udp-323342b5-0967-49ab-a662-996f39715fd0 10016 127.0.0.1 10017 
+Mar 20 22:16:02.510 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 5 udp-323342b5-0967-49ab-a662-996f39715fd0 
+Mar 20 22:16:02.510 HYPERVISOR: exec_cmd: vm get_status S1 

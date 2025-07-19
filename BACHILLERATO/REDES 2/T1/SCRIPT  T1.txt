@@ -1,0 +1,85 @@
+ROUTER1:
+**************************************************************
+enable
+configure terminal
+hostname BR1
+
+no ip domain-lookup
+
+enable secret gns
+
+line console 0
+ logging synchronous
+ password tarea1
+ login
+ exit
+
+line vty 0 15
+ password tarea1
+ login
+ exit
+
+service password-encryption
+banner motd $El Acceso no Autorizado está Prohibido$
+
+interface FastEthernet0/0
+ description LAN BR1
+ ip address 192.168.33.129 255.255.255.192
+ no shutdown
+ exit
+
+interface Serial1/0
+ description Enlace BR1-BR2
+ ip address 192.168.33.250 255.255.255.252
+ no shutdown
+ exit
+
+do wr
+
+***************************************************************************
+ROUTER2:
+enable
+configure terminal
+hostname BR2
+
+no ip domain-lookup
+
+enable secret gns
+
+line console 0
+ logging synchronous
+ password tarea1
+ login
+ exit
+
+line vty 0 15
+ password tarea1
+ login
+ exit
+
+service password-encryption
+banner motd $El Acceso no Autorizado está Prohibido$
+
+interface FastEthernet0/0
+ description LAN BR2
+ ip address 192.168.33.193 255.255.255.224
+ no shutdown
+ exit
+
+
+ description Enlace BR1-BR2
+ ip address 192.168.33.249 255.255.255.252
+ no shutdown
+
+
+do wr
+
+
+**************************************
+PING PONG 
+
+**************************************
+
+R1 A R2: ping 192.168.33.249
+
+R2 A R1: ping 192.168.33.250

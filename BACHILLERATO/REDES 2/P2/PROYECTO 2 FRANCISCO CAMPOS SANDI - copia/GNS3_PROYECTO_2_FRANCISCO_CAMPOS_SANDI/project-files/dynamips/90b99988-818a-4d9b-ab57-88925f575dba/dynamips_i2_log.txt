@@ -1,0 +1,33 @@
+Apr 07 22:08:08.756 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 07 22:08:08.757 HYPERVISOR: Started on IP = localhost, TCP port = 51600.
+Apr 07 22:08:09.245 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 07 22:08:09.246 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips 
+Apr 07 22:08:09.246 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips
+Apr 07 22:08:09.247 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\7dfc0d42-b3f3-498e-a39a-df77e20791df 
+Apr 07 22:08:09.247 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\7dfc0d42-b3f3-498e-a39a-df77e20791df
+Apr 07 22:08:09.248 HYPERVISOR: exec_cmd: vm create S2 3 c3725 
+Apr 07 22:08:09.248 VM: VM S2 created.
+Apr 07 22:08:09.249 HYPERVISOR: exec_cmd: vm set_con_tcp_port S2 5006 
+Apr 07 22:08:09.249 HYPERVISOR: exec_cmd: c3725 get_mac_addr S2 
+Apr 07 22:08:09.251 HYPERVISOR: exec_cmd: vm set_disk0 S2 1 
+Apr 07 22:08:09.251 HYPERVISOR: exec_cmd: vm set_exec_area S2 64 
+Apr 07 22:08:09.251 HYPERVISOR: exec_cmd: vm get_status S2 
+Apr 07 22:08:09.252 HYPERVISOR: exec_cmd: vm set_idle_pc S2 0x602467a4 
+Apr 07 22:08:09.253 HYPERVISOR: exec_cmd: vm set_ios S2 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 07 22:08:09.253 HYPERVISOR: exec_cmd: c3725 set_mac_addr S2 c203.963c.0000 
+Apr 07 22:08:09.254 HYPERVISOR: exec_cmd: vm set_nvram S2 256 
+Apr 07 22:08:09.254 HYPERVISOR: exec_cmd: vm get_status S2 
+Apr 07 22:08:09.254 HYPERVISOR: exec_cmd: vm slot_add_binding S2 1 0 NM-16ESW 
+Apr 07 22:08:10.681 HYPERVISOR: exec_cmd: nio create_udp udp-4deca360-17c4-412c-b445-ab5c71b8e4ad 10014 127.0.0.1 10015 
+Apr 07 22:08:10.954 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S2 1 0 udp-4deca360-17c4-412c-b445-ab5c71b8e4ad 
+Apr 07 22:08:10.955 HYPERVISOR: exec_cmd: vm get_status S2 
+Apr 07 22:08:10.982 HYPERVISOR: exec_cmd: nio create_udp udp-9d2e445b-3eec-4eb2-955e-254c2f4adeb1 10018 127.0.0.1 10019 
+Apr 07 22:08:10.986 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S2 1 6 udp-9d2e445b-3eec-4eb2-955e-254c2f4adeb1 
+Apr 07 22:08:10.986 HYPERVISOR: exec_cmd: vm get_status S2 
+Apr 07 22:08:18.030 HYPERVISOR: exec_cmd: vm set_ios S2 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 07 22:08:23.690 HYPERVISOR: exec_cmd: vm set_ghost_status S2 2 
+Apr 07 22:08:23.706 HYPERVISOR: exec_cmd: vm set_ghost_file S2 C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Apr 07 22:08:23.708 HYPERVISOR: exec_cmd: vm get_status S2 
+Apr 07 22:08:23.730 HYPERVISOR: exec_cmd: vm set_config S2 configs\i3_startup-config.cfg 
+Apr 07 22:08:23.731 HYPERVISOR: exec_cmd: vm start S2 
+Apr 07 22:08:29.554 HYPERVISOR: exec_cmd: vm set_ios S2 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 

@@ -1,0 +1,143 @@
+# Configuracion de R1
+**************************************
+enable
+configure terminal
+hostname R1
+no ip domain lookup
+enable secret gns
+line con 0
+password gnstres
+login
+line vty 0 15
+password gnstres
+login
+service password-encryption
+banner motd #Solamente Usuarios Autorizados#
+end
+copy running-config startup-config
+
+## Configuracion de rutas
+configure terminal
+ip route 10.2.0.0 255.255.255.0 192.168.1.2
+ip route 0.0.0.0 0.0.0.0 172.16.1.2
+ip route 0.0.0.0 0.0.0.0 192.168.1.2 80
+ip route 0.0.0.0 0.0.0.0 FastEthernet 0/0
+
+ipv6 route ::/0 2001:DB8:ACAD:2::2
+
+
+ipv6 unicast-routing
+
+## Configuracion de interfaces
+
+interface serial 1/0
+ ip address 172.16.1.1 255.255.255.0
+ ipv6 address fe80::1 link-local
+ ipv6 address 2001:db8:acad:2::1/64
+ no shutdown
+exit
+
+interface f0/0
+ ip address 192.168.1.1 255.255.255.0
+ ipv6 address fe80::1 link-local
+ ipv6 address 2001:db8:acad:1::1/64
+ no shutdown
+exit
+
+interface Loopback1
+ ip address 10.1.0.1 255.255.255.0
+ ipv6 address fe80::1 link-local
+ ipv6 address 2001:db8:acad:10::1/64
+ no shutdown
+exit
+
+interface Loopback2
+ ip address 209.165.200.225 255.255.255.224
+ ipv6 address fe80::1 link-local
+ ipv6 address 2001:db8:acad:209::1/64
+ no shutdown
+exit
+
+end
+copy running-config startup-config
+*********************************************
+
+## Comandos de prueba en R1
+ping 192.168.1.2  # Ping a la interfaz de R2
+ping 10.2.0.1     # Ping a Loopback de R2
+ping 172.16.1.2   # Ping a la interfaz serial de R2
+
+show ip interface brief  # Verifica las interfaces y sus direcciones IP
+show ipv6 interface brief  # Verifica las interfaces y sus direcciones IPv6
+show running-config  # Muestra la configuracion actual
+show ip route  # Muestra la tabla de enrutamiento de R1
+show ipv6 route  # Muestra la tabla de enrutamiento IPv6 de R1
+***********************************************************
+## Configuracion de R2
+enable
+configure terminal
+hostname R2
+no ip domain lookup
+enable secret gns
+line con 0
+password gnstres
+login
+line vty 0 15
+password gnstres
+login
+service password-encryption
+banner motd #Solamente Usuarios Autorizados#
+end
+copy running-config startup-config
+
+## Configuracion de rutas
+configure terminal
+ipv6 route 2001:DB8:ACAD:10::/64 2001:DB8:ACAD:1::1
+ipv6 route ::/0 2001:DB8:ACAD:1::1 80
+ipv6 route ::/0 2001:DB8:ACAD:2::1
+
+ipv6 unicast-routing
+
+
+## Configuracion de interfaces
+
+interface serial 1/0
+ ip address 172.16.1.2 255.255.255.0
+ ipv6 address fe80::2 link-local
+ ipv6 address 2001:db8:acad:2::2/64
+ no shutdown
+exit
+
+interface f0/0
+ ip address 192.168.1.2 255.255.255.0
+ ipv6 address fe80::2 link-local
+ ipv6 address 2001:db8:acad:1::2/64
+ no shutdown
+exit
+
+interface Loopback1
+ ip address 10.2.0.1 255.255.255.0
+ ipv6 address fe80::2 link-local
+ ipv6 address 2001:db8:acad:11::2/64
+ no shutdown
+exit
+
+interface Loopback2
+ ip address 209.165.200.193 255.255.255.224
+ ipv6 address fe80::2 link-local
+ ipv6 address 2001:db8:acad:210::1/64
+ no shutdown
+exit
+end
+copy running-config startup-config
+************************************
+# Comandos de prueba en R2
+ping 192.168.1.1  # Ping a la interfaz de R1
+ping 10.1.0.1     # Ping a Loopback de R1
+ping 172.16.1.1   # Ping a la interfaz serial de R1
+
+show ip interface brief  # Verifica las interfaces y sus direcciones IP
+show ipv6 interface brief  # Verifica las interfaces y sus direcciones IPv6
+show running-config  # Muestra la configuracion actual
+show ip route  # Muestra la tabla de enrutamiento de R2
+show ipv6 route  # Muestra la tabla de enrutamiento IPv6 de R2

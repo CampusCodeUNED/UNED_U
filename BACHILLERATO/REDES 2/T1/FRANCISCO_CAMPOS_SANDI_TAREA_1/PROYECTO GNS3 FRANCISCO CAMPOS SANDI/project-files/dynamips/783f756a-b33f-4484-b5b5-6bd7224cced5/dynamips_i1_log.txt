@@ -1,0 +1,21 @@
+Feb 14 16:33:31.193 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 14 16:33:31.194 HYPERVISOR: Started on IP = localhost, TCP port = 65277.
+Feb 14 16:33:31.463 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 14 16:33:31.464 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\GNS3\projects\untitled\project-files\dynamips 
+Feb 14 16:33:31.467 GENERAL: working_dir=C:\Users\Personal\GNS3\projects\untitled\project-files\dynamips
+Feb 14 16:33:31.467 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\GNS3\projects\untitled\project-files\dynamips\f09cbec0-e99e-4d51-9a8d-35724abc2dd8 
+Feb 14 16:33:31.468 GENERAL: working_dir=C:\Users\Personal\GNS3\projects\untitled\project-files\dynamips\f09cbec0-e99e-4d51-9a8d-35724abc2dd8
+Feb 14 16:33:31.468 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Feb 14 16:33:31.469 VM: VM R1 created.
+Feb 14 16:33:31.469 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Feb 14 16:33:31.470 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Feb 14 16:33:31.470 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 14 16:33:31.470 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Feb 14 16:33:31.471 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Personal/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Feb 14 16:33:31.471 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Feb 14 16:33:31.471 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Feb 14 16:33:31.472 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Feb 14 16:33:31.472 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 14 16:33:31.715 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Personal/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Feb 14 16:35:32.170 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Personal/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Feb 14 16:38:35.891 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Personal/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 

@@ -1,0 +1,27 @@
+Mar 20 22:16:00.229 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 20 22:16:00.230 HYPERVISOR: Started on IP = localhost, TCP port = 59193.
+Mar 20 22:16:00.728 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 20 22:16:00.729 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips 
+Mar 20 22:16:00.729 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips
+Mar 20 22:16:00.730 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\480ff509-8427-4390-8836-b912fe44fe10 
+Mar 20 22:16:00.730 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P1\PROYECTO 1 FRANCISCO CAMPOS SANDI\GNS3_PROYECTO_1_FRANCISCO_CAMPOS_SANDI\PROYECTO_1_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\480ff509-8427-4390-8836-b912fe44fe10
+Mar 20 22:16:00.730 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Mar 20 22:16:00.731 VM: VM R1 created.
+Mar 20 22:16:00.731 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Mar 20 22:16:00.732 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Mar 20 22:16:00.732 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 20 22:16:00.732 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Mar 20 22:16:00.732 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Mar 20 22:16:00.733 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 20 22:16:00.733 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Personal/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Mar 20 22:16:00.734 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.4a4c.0000 
+Mar 20 22:16:00.735 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Mar 20 22:16:00.735 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Mar 20 22:16:00.735 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 20 22:16:00.735 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-8T 
+Mar 20 22:16:01.933 HYPERVISOR: exec_cmd: nio create_udp udp-b5ea549d-e9b8-41df-8f94-9f1c0450d201 10008 127.0.0.1 10009 
+Mar 20 22:16:02.191 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-b5ea549d-e9b8-41df-8f94-9f1c0450d201 
+Mar 20 22:16:02.191 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 20 22:16:02.500 HYPERVISOR: exec_cmd: nio create_udp udp-b615931d-e897-4159-9237-2c528ee8bbb8 10014 127.0.0.1 10015 
+Mar 20 22:16:02.503 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-b615931d-e897-4159-9237-2c528ee8bbb8 
+Mar 20 22:16:02.503 HYPERVISOR: exec_cmd: vm get_status R1 

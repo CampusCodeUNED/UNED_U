@@ -1,0 +1,49 @@
+Apr 07 22:08:08.410 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 07 22:08:08.411 HYPERVISOR: Started on IP = localhost, TCP port = 51594.
+Apr 07 22:08:08.655 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 07 22:08:08.656 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips 
+Apr 07 22:08:08.659 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips
+Apr 07 22:08:08.660 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\90b99988-818a-4d9b-ab57-88925f575dba 
+Apr 07 22:08:08.660 GENERAL: working_dir=C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\90b99988-818a-4d9b-ab57-88925f575dba
+Apr 07 22:08:08.660 HYPERVISOR: exec_cmd: vm create S1 2 c3725 
+Apr 07 22:08:08.661 VM: VM S1 created.
+Apr 07 22:08:08.662 HYPERVISOR: exec_cmd: vm set_con_tcp_port S1 5004 
+Apr 07 22:08:08.662 HYPERVISOR: exec_cmd: c3725 get_mac_addr S1 
+Apr 07 22:08:08.662 HYPERVISOR: exec_cmd: vm set_disk0 S1 1 
+Apr 07 22:08:08.662 HYPERVISOR: exec_cmd: vm set_exec_area S1 64 
+Apr 07 22:08:08.663 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:08.663 HYPERVISOR: exec_cmd: vm set_idle_pc S1 0x602467a4 
+Apr 07 22:08:08.664 HYPERVISOR: exec_cmd: vm set_ios S1 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 07 22:08:08.664 HYPERVISOR: exec_cmd: c3725 set_mac_addr S1 c202.3778.0000 
+Apr 07 22:08:08.664 HYPERVISOR: exec_cmd: vm set_nvram S1 256 
+Apr 07 22:08:08.665 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:08.665 HYPERVISOR: exec_cmd: vm slot_add_binding S1 1 0 NM-16ESW 
+Apr 07 22:08:10.347 HYPERVISOR: exec_cmd: nio create_udp udp-f675b27c-228b-491b-87c2-365ca3494c65 10004 127.0.0.1 10005 
+Apr 07 22:08:10.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 5 udp-f675b27c-228b-491b-87c2-365ca3494c65 
+Apr 07 22:08:10.608 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:10.631 HYPERVISOR: exec_cmd: nio create_udp udp-17a634a8-5550-4873-b598-2680bf89c707 10008 127.0.0.1 10009 
+Apr 07 22:08:10.634 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 6 udp-17a634a8-5550-4873-b598-2680bf89c707 
+Apr 07 22:08:10.634 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:10.672 HYPERVISOR: exec_cmd: nio create_udp udp-e7981310-6068-4fe3-b241-8c90cc452839 10012 127.0.0.1 10013 
+Apr 07 22:08:10.674 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S1 1 0 udp-e7981310-6068-4fe3-b241-8c90cc452839 
+Apr 07 22:08:10.675 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:23.225 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 07 22:08:23.226 VM: VM Ghost created.
+Apr 07 22:08:23.235 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Apr 07 22:08:23.236 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 07 22:08:23.237 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Apr 07 22:08:23.237 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 07 22:08:23.238 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Apr 07 22:08:23.238 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 07 22:08:23.611 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 07 22:08:23.611 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 07 22:08:23.680 VM: VM Ghost shutdown.
+Apr 07 22:08:23.682 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Apr 07 22:08:23.684 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 07 22:08:23.684 VM: VM Ghost destroyed.
+Apr 07 22:08:23.689 HYPERVISOR: exec_cmd: vm set_ghost_status S1 2 
+Apr 07 22:08:23.690 HYPERVISOR: exec_cmd: vm set_ghost_file S1 C:\Users\Personal\Desktop\I CUATRI 2025\REDES 2\P2\PROYECTO 2 FRANCISCO CAMPOS SANDI - copia\GNS3_PROYECTO_2_FRANCISCO_CAMPOS_SANDI\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-128.ghost 
+Apr 07 22:08:23.690 HYPERVISOR: exec_cmd: vm get_status S1 
+Apr 07 22:08:23.705 HYPERVISOR: exec_cmd: vm set_config S1 configs\i2_startup-config.cfg 
+Apr 07 22:08:23.706 HYPERVISOR: exec_cmd: vm start S1 
+Apr 07 22:08:27.435 HYPERVISOR: exec_cmd: vm set_ios S1 C:/Users/Personal/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 

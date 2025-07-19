@@ -1,0 +1,308 @@
+R1:
+enable
+configure terminal
+hostname R1
+
+no ip domain-lookup
+enable secret gns
+line console 0
+password gnstres  
+login
+exit
+
+line vty 0 15
+password gnstres
+login
+exit
+
+service password-encryption  
+banner motd $Acceso no Autorizado Esta Prohibido$
+do wr
+
+service password-encryption
+write memory
+exit
+clock set 21:19:53 15 Feb 2025
+
+configure terminal
+interface fastethernet 0/0
+no shutdown
+
+interface fastethernet 0/0.100
+encapsulation dot1q 100
+ip address 192.168.1.1 255.255.255.192
+description Estudiantes
+exit
+
+interface fastethernet 0/0.200
+encapsulation dot1q 200
+ip address 192.168.1.65 255.255.255.224
+description Clases
+exit
+do wr
+
+interface fastethernet 0/0.999
+encapsulation dot1q 999
+description Direccion
+exit
+do wr
+
+interface fastethernet 0/0.1000
+encapsulation dot1q 1000 native
+description Nativa
+exit
+do wr
+
+interface serial 1/0
+ip address 10.0.0.1 255.255.255.252
+no shutdown
+description Hacia R2
+exit
+do wr
+
+
+router eigrp 1
+network 10.0.0.0 0.0.0.3
+network 192.168.1.0 0.0.0.63
+network 192.168.1.64 0.0.0.31
+no auto-summary
+exit
+do wr
+
+ip dhcp excluded-address 192.168.1.1 192.168.1.5
+
+ip dhcp pool R1_cliente_LAN 
+network 192.168.1.0 255.255.255.192
+default-router 192.168.1.1
+domain-name gnstres-lab.net
+dns-server 8.8.8.8
+lease 2 12 30
+exit
+
+ip dhcp excluded-address 192.168.1.97 192.168.1.101
+
+ip dhcp pool R2_Cliente_LAN 
+network 192.168.1.96 255.255.255.240
+default-router 192.168.1.97
+domain-name gnstres-lab.net
+dns-server 8.8.8.8
+lease 2 12 30
+exit
+do wr
+end
+
+copy running-config startup-config
+##HACER CAPTURA Y MOSTRAR VIDEO
+show ip interface brief
+**************************
+**************************
+R2:
+enable
+configure terminal
+hostname R2
+
+no ip domain-lookup
+enable secret gns
+line console 0
+password gnstres  
+login
+exit
+
+line vty 0 15
+password gnstres
+login
+exit
+
+service password-encryption  
+banner motd $Acceso no Autorizado Esta Prohibido$
+do wr
+
+service password-encryption
+do wr
+exit
+
+clock set 21:19:53 15 Feb 2025
+
+configure terminal
+interface fastethernet 0/0
+no shutdown
+ip address 192.168.1.97 255.255.255.240
+description Subred C
+exit
+do wr
+
+interface serial 1/0
+ip address 10.0.0.2 255.255.255.252
+no shutdown
+description Hacia R1
+exit
+do wr
+
+
+router eigrp 1
+network 10.0.0.0 0.0.0.3
+network 192.168.1.96 0.0.0.15
+no auto-summary
+exit
+do wr
+
+interface fastethernet 0/0
+ip helper-address 10.0.0.1
+exit
+do wr
+end
+
+copy running-config startup-config
+********************************************
+S1:
+enable
+configure terminal
+hostname S1
+
+no ip domain-lookup
+enable secret gns
+line console 0
+password gnstres  
+login
+exit
+
+line vty 0 15
+password gnstres
+login
+exit
+
+service password-encryption  
+banner motd $Acceso no Autorizado Esta Prohibido$
+do wr
+
+service password-encryption
+do wr
+exit
+clock set 21:19:53 15 Feb 2025
+end
+
+vlan database
+vlan 100 name Estudiantes
+vlan 200 name Clases
+vlan 999 name Direccion
+vlan 1000 name Native
+exit
+
+configure terminal
+interface vlan 100
+ip address 192.168.1.2 255.255.255.192
+no shutdown
+description Estudiantes
+exit
+
+ip default-gateway 192.168.1.1
+do wr
+
+interface vlan 200
+ip address 192.168.1.66 255.255.255.224
+no shutdown
+description Clases
+exit
+do wr
+
+
+
+interface range fastethernet 1/2 - 9
+switchport mode access
+switchport access vlan 999
+exit
+do wr
+
+interface range fastethernet 1/10 - 15
+switchport mode access
+switchport access vlan 999
+exit
+
+interface fastethernet 1/1
+switchport mode access
+switchport access vlan 100
+exit
+
+interface fastethernet 1/0
+switchport mode trunk
+switchport trunk native vlan 1000
+switchport trunk allowed vlan 1,100,200,1000,1002-1005
+exit
+do wr
+end
+copy running-config startup-config
+**************************
+S2:
+enable
+configure terminal
+hostname S2
+
+no ip domain-lookup
+enable secret gns
+line console 0
+password gnstres  
+login
+exit
+
+line vty 0 15
+password gnstres
+login
+exit
+
+service password-encryption  
+banner motd $Acceso no Autorizado Esta Prohibido$
+do wr
+
+service password-encryption
+do wr
+exit
+clock set 21:19:53 15 Feb 2025
+end
+configure terminal
+interface vlan 1
+ip address 192.168.1.98 255.255.255.240
+no shutdown
+description Subred C
+exit
+
+ip default-gateway 192.168.1.97
+do wr
+
+interface range fastethernet 1/2 - 9
+shutdown
+exit
+do wr
+
+interface range fastethernet 1/10 - 15
+shutdown
+exit
+do wr
+end
+copy running-config startup-config
+**************************
+COMPROBACIONES PARA EL VIDEO 
+******************************
+R1  Y R2
+show ip dhcp pool  
+show ip dhcp binding   
+show ip dhcp server statistics 
+show ip interface brief
+*********************************
+******************************
+S1
+Sh vlan-s
+show interfaces trunk
+*********************************
+PC-A
+ip dhcp
+show ip
+ping 192.168.1.1
+Sh vlan-s
+***********************************
+*********************************
+PC-B
+ip dhcp
+show ip
+ping 192.168.1.97
+***********************************
+
