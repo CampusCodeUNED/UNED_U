@@ -1,0 +1,244 @@
+Asignación de direcciones ip a equipos:
+R1:
+enable
+configure terminal 
+interface serial0/0
+ip address 192.168.2.193 255.255.255.252
+no shutdown
+exit
+
+interface fastethernet0/0
+no shutdown
+exit
+
+interface fastethernet0/0.10
+encapsulation dot1q 10
+ip address 192.168.1.2 255.255.255.0
+standby 10 ip 192.168.1.1
+standby 10 priority 150
+standby 10 preempt
+do write
+exit
+
+interface fastethernet0/0.20
+encapsulation dot1q 20
+ip address 192.168.2.2 255.255.255.128
+standby 20 ip 192.168.2.1
+standby 20 priority 150
+standby 20 preempt
+do write
+exit
+
+interface fastethernet0/0.30
+encapsulation dot1q 30
+ip address 192.168.2.130 255.255.255.192
+standby 30 ip 192.168.2.129
+standby 30 priority 150
+standby 30 preempt
+do write
+exit
+
+R2:
+enable
+configure terminal 
+interface serial0/0
+ip address 192.168.2.194 255.255.255.252
+no shutdown
+exit
+
+interface fastethernet0/0
+no shutdown
+exit
+
+interface fastethernet0/0.10
+encapsulation dot1q 10
+ip address 192.168.1.3 255.255.255.0
+standby 10 ip 192.168.1.1
+do write
+exit
+
+interface fastethernet0/0.20
+encapsulation dot1q 20
+ip address 192.168.2.3 255.255.255.128
+standby 20 ip 192.168.2.1
+do write
+exit
+
+interface fastethernet0/0.30
+encapsulation dot1q 30
+ip address 192.168.2.131 255.255.255.192
+standby 30 ip 192.168.2.129
+do write
+exit
+
+ESW1:
+vlan database
+vlan 10 name Direccion
+vlan 20 name Docencia
+vlan 30 name Estudiantes
+exit
+configure terminal
+interface range fastethernet1/0 , fastethernet1/15
+switchport mode trunk
+exit
+do write
+
+interface range fastethernet1/1 - 3
+switchport mode access
+switchport access vlan 10
+exit
+
+interface range fastethernet1/4 - 8
+switchport mode access
+switchport access vlan 20
+exit
+
+interface range fastethernet1/9 - 14
+switchport mode access
+switchport access vlan 30
+exit
+
+ESW2:
+vlan database
+vlan 10 name Direccion
+vlan 20 name Docencia
+vlan 30 name Estudiantes
+exit
+configure terminal
+interface range fastethernet1/0 , fastethernet1/15
+switchport mode trunk
+exit
+do write
+
+interface range fastethernet1/1 - 3
+switchport mode access
+switchport access vlan 10
+exit
+
+interface range fastethernet1/4 - 8
+switchport mode access
+switchport access vlan 20
+exit
+
+interface range fastethernet1/9 - 14
+switchport mode access
+switchport access vlan 30
+exit
+
+
+PC1:
+ip 192.168.1.4/24 192.168.1.1
+PC18:
+ip 192.168.1.5/24 192.168.1.1
+PC19:
+ip 192.168.1.6/24 192.168.1.1
+PC4:
+ip 192.168.1.7/24 192.168.1.1
+PC7:
+ip 192.168.1.8/24 192.168.1.1
+PC8:
+ip 192.168.1.9/24 192.168.1.1
+
+PC23:
+ip 192.168.2.4/25 192.168.2.1
+PC22:
+ip 192.168.2.5/25 192.168.2.1
+PC21:
+ip 192.168.2.6/25 192.168.2.1
+PC20:
+ip 192.168.2.7/25 192.168.2.1
+PC2:
+ip 192.168.2.8/25 192.168.2.1
+PC5:
+ip 192.168.2.9/25 192.168.2.1
+PC9:
+ip 192.168.2.10/25 192.168.2.1
+PC10:
+ip 192.168.2.11/25 192.168.2.1
+PC11:
+ip 192.168.2.12/25 192.168.2.1
+PC12:
+ip 192.168.2.13/25 192.168.2.1
+
+PC28:
+ip 192.168.2.132/26 192.168.2.129
+PC27:
+ip 192.168.2.133/26 192.168.2.129
+PC26:
+ip 192.168.2.134/26 192.168.2.129
+PC25:
+ip 192.168.2.135/26 192.168.2.129
+PC24:
+ip 192.168.2.136/26 192.168.2.129
+PC3:
+ip 192.168.2.137/26 192.168.2.129
+PC6:
+ip 192.168.2.138/26 192.168.2.129
+PC13:
+ip 192.168.2.139/26 192.168.2.129
+PC14:
+ip 192.168.2.140/26 192.168.2.129
+PC15:
+ip 192.168.2.141/26 192.168.2.129
+PC16:
+ip 192.168.2.142/26 192.168.2.129
+PC17:
+ip 192.168.2.143/26 192.168.2.129
+**************************************************************
+
+TELNET
+•	Investigar la configuración de Telnet 
+no ip domain-lookup
+enable secret tele22
+line console 0
+logging synchronous  
+pass tele22
+login
+exit
+service password-encryption
+banner motd $ACCESO PROHIBIDO$
+do wr
+
+TELNET:
+
+line vty 0 15
+transport input telnet 
+password tele22
+login
+exit
+service password-encryption
+do wr
+end
+exit
+
+*****
+telnet 192.168.2.193
+***************************************
+BANNER
+R1:
+Hostname R1
+no ip domain-lookup
+service password-encryption
+banner motd $Prohibido el acceso$
+exit
+clock set 11:02:40 19 july 2024
+ wr
+**************************************
+ACL
+a. Investigar Listas de Acceso (ACL) y aplicar a este punto. (Explique 
+en el documento). 
+R1,2(ACL extendida numerada, que la pc1 de vlan 10 no pueda comunicarse por ICMP con la pc12 de vlan 20):
+
+Access-list 100 deny icmp host 192.168.1.4 host 192.168.2.13
+
+Access-list 100 permit ip any any
+Inter se0/0
+Ip access-group 100 out
+Exit
+Inter fa0/0.20
+Ip access-group 100 out
+Exit
+Do wr
+
+
+

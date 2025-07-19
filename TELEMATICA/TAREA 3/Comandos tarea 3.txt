@@ -1,0 +1,140 @@
+ R1:
+Sh vlan-s
+Sh vlan-switch
+Sh ip int brief
+
+enable 
+configure terminal 
+Interface fa0/0
+No shut 
+
+interface fa0/0.10
+encapsulation dot1Q 10
+ip address 10.0.10.1 255.255.255.0
+no shut
+exit
+
+interface fa0/0.20
+encapsulation dot1Q 20
+ip address 10.0.20.1 255.255.255.0
+No shut
+exit
+
+interface fa0/0.30
+encapsulation dot1Q 30
+ip address 10.0.30.1 255.255.255.0
+no shut
+exit
+
+
+sh running-config
+Sh ip int br
+running-config startup-config
+
+
+ESW1:
+Sh running-config
+Sh vlan-s
+
+enable
+vlan database
+vlan 10 name Sistemas
+vlan 20 name Operaciones
+vlan 30 name Gerencia
+Exit
+
+sh vlan-s
+Enable
+Configure terminal
+
+ interface range fa1/0 -1           
+switchport mode trunk
+No shut                
+exit
+
+
+Asignación del rango de interfaz a la vlan
+interface range fa1/2 - 4
+switchport mode access
+switchport access vlan 10
+No shut
+exit
+
+interface range fa1/5 - 9
+switchport mode access
+switchport access vlan 20
+No shut
+exit
+
+interface range fa1/10 - 15
+switchport mode access
+switchport access vlan 30
+exit
+End
+copy running-config startup-config
+
+
+
+
+
+
+ESW2:
+
+Sh running-config
+Sh vlan-s
+
+enable
+vlan database
+vlan 10 name Sistemas
+vlan 20 name Operaciones
+vlan 30 name Gerencia
+Exit
+
+sh vlan-s
+Enable
+Configure terminal
+
+enable 
+interface fa1/0
+switchport mode trunk
+No shut
+exit
+
+interface range fa1/1 - 4
+switchport mode access
+switchport access vlan 10
+No shut
+exit
+
+interface range fa1/5 - 9
+switchport mode access
+switchport access vlan 20
+No shut
+exit
+
+interface range fa1/10 - 15
+switchport mode access
+switchport access vlan 30
+No shut
+Exit
+end
+running-config startup-config
+
+PC1:
+ip 10.0.10.2/24 10.0.10.1     ping 10.0.10.2 ping 10.0.20  ping 10.0.30.2 ping 10.0.10.254 ping 10.0.20.254 ping 10.0.30.254
+save
+PC2:
+ip 10.0.20.2/24 10.0.20.1
+save
+PC3:
+ip 10.0.30.2/24 10.0.30.1
+save
+PC4:
+ip 10.0.10.254/24 10.0.10.1
+save
+PC5:
+ip 10.0.20.254/24 10.0.20.1
+save
+PC6:
+ip 10.0.30.254/24 10.0.30.1
+Save
