@@ -1,0 +1,88 @@
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe.config
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.AssemblyReference.cache
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmAdministrador.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticulo.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticuloSucursal.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCategoria.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCliente.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmPrincipal.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmSucursal.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.Properties.Resources.resources
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.GenerateResource.cache
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDe.DA6A21BB.Up2Date
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe.config
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmAdministrador.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticulo.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticuloSucursal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCategoria.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCliente.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmPrincipal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmSucursal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.Properties.Resources.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.GenerateResource.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDe.DA6A21BB.Up2Date
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe.config
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.LogicaNegocio.dll
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.LogicaNegocio.pdb
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.AssemblyReference.cache
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmAdministrador.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticulo.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticuloSucursal.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCategoria.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCliente.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmPrincipal.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmSucursal.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.Properties.Resources.resources
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.GenerateResource.cache
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDe.DA6A21BB.Up2Date
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Yader Barahona\Desktop\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe.config
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Interfaz.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.LogicaNegocio.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\bin\Debug\TiendaDeportivaServidor.LogicaNegocio.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmAdministrador.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticulo.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmArticuloSucursal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCategoria.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmCliente.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmPrincipal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.FrmSucursal.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.Properties.Resources.resources
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.GenerateResource.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDe.DA6A21BB.Up2Date
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.exe
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Interfaz\obj\Debug\TiendaDeportivaServidor.Interfaz.pdb

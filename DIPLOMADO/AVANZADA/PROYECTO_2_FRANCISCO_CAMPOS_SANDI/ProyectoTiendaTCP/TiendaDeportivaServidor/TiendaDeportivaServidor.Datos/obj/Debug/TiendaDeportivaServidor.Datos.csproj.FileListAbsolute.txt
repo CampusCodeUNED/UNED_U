@@ -1,0 +1,27 @@
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.AssemblyReference.cache
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDe.D4FEA625.Up2Date
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Yader Barahona\source\repos\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\PROYECTO2\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDe.D4FEA625.Up2Date
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Datos.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.dll
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\bin\Debug\TiendaDeportivaServidor.Entidades.pdb
+C:\Users\Personal\Desktop\III CUATRI 2024\AVANZADA\PROYECTO 2\P2 VERSION FINAL\ProyectoTiendaTCP\ProyectoTiendaTCP\TiendaDeportivaServidor\TiendaDeportivaServidor.Datos\obj\Debug\TiendaDe.D4FEA625.Up2Date
