@@ -1,0 +1,96 @@
+@startuml
+actor Administrador
+actor Lavacoche
+actor Recepcion
+
+rectangle "Sistema CleanCarPlus" {
+    (Ingresar Nuevo Vehículo)
+    (Verificar Existencia Cliente)
+    (Mostrar Vehículos Asociados)
+    (Registrar Vehículo)
+    (Capturar Datos Cliente)
+    (Guardar Registro)
+    (Confirmar Registro)
+    (Notificar Administrador)
+}
+
+left to right direction
+
+Administrador --> (Ingresar Nuevo Vehículo)
+Lavacoche --> (Ingresar Nuevo Vehículo)
+Recepcion --> (Ingresar Nuevo Vehículo)
+
+(Ingresar Nuevo Vehículo) --> (Verificar Existencia Cliente) : <<include>>
+(Ingresar Nuevo Vehículo) --> (Capturar Datos Cliente) : <<include>>
+(Ingresar Nuevo Vehículo) --> (Guardar Registro) : <<include>>
+
+(Guardar Registro) --> (Confirmar Registro)
+(Guardar Registro) --> (Notificar Administrador)
+
+(Verificar Existencia Cliente) --> (Mostrar Vehículos Asociados) : <<extend>>
+(Verificar Existencia Cliente) --> (Registrar Vehículo) : <<extend>>
+
+@enduml
+*********************************************************************************************************
+@startuml
+left to right direction
+
+actor "Recepcionista" as Recepcionista
+actor "Administrador" as Administrador
+actor "Lavacoche" as Lavacoche
+
+rectangle "Módulo de Servicios" {
+    usecase "Agregar un nuevo servicio\nal vehículo" as UC1
+    usecase "Seleccionar vehículo\npor placa" as UC2
+    usecase "Elegir tipo de servicio" as UC3
+    usecase "Registrar duración\ndel servicio" as UC4
+    usecase "Registrar costo\ndel servicio" as UC5
+    usecase "Notificar al\nLavacoche sobre el nuevo servicio" as UC6
+    usecase "Registrar servicio adicional\n(extendido)" as UC7
+    usecase "Consultar tarifas\n(incluido)" as UC8
+}
+
+Recepcionista --> UC1
+UC1 --> UC2
+UC1 --> UC3
+UC1 --> UC4
+UC1 --> UC5
+UC1 --> UC6
+Lavacoche <-- UC6
+Administrador --> UC1
+
+UC1 ..> UC7 : <<extend>>
+UC1 ..> UC8 : <<include>>
+
+@enduml
+***********************************************************************************************************
+@startuml
+left to right direction
+
+actor "Recepcionista" as Recepcionista
+actor "Administrador" as Administrador
+
+rectangle "Módulo de Historial de Servicio" {
+    usecase "Seleccionar placa" as UC2
+    usecase "Filtrar por fecha" as UC3
+    usecase "Filtrar por tipo de servicio" as UC4
+    usecase "Filtrar por responsable" as UC5
+    usecase "Consultar detalles de\nhistorial de servicio" as UC6
+    usecase "Generar reporte de historial\npara una placa en específico" as UC1
+}
+
+Recepcionista --> UC2
+Administrador --> UC2
+
+UC2 --> UC3 : <<include>>
+UC2 --> UC4 : <<include>>
+UC2 --> UC5 : <<include>>
+UC2 --> UC6 : <<include>>
+UC3 --> UC1 : <<include>>
+UC4 --> UC1 : <<include>>
+UC5 --> UC1 : <<include>>
+UC6 --> UC1 : <<extend>>
+
+@enduml
+**********************************************************************************
+https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuR8ABKujibBGrRLJq00oDRcKV1CpynGSKt8pyvGK4eiXB2ube9n2IKQgGc91GKvcSc99PZv46g89h0XY28I9fbIJoo4rBmLa7m00
