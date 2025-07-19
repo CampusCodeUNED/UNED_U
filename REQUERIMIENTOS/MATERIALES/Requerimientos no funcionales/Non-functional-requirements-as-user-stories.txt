@@ -1,0 +1,3 @@
+Non-functional-requirements-as-user-stories
+
+https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories

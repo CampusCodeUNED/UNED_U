@@ -1,0 +1,56 @@
+@startuml
+left to right direction
+title Requisitos Funcionales
+
+actor "Usuario"
+actor "Estación Meteorológica"
+actor "Sensor Sísmico"
+actor "Administrador"
+
+"Usuario" --> (Recopilar Datos en Tiempo Real)
+"Estación Meteorológica" --> (Recopilar Datos en Tiempo Real)
+"Sensor Sísmico" --> (Recopilar Datos en Tiempo Real)
+
+(Recopilar Datos en Tiempo Real) --> (Generar Alertas)
+(Generar Alertas) --> (Enviar Alertas a SMS)
+(Generar Alertas) --> (Enviar Alertas a Redes Sociales)
+(Generar Alertas) --> (Enviar Alertas a Correo Electrónico)
+(Generar Alertas) --> (Enviar Alertas a Aplicación Móvil)
+
+"Usuario" --> (Visualizar Información en Interfaz Gráfica)
+(Visualizar Información en Interfaz Gráfica) --> (Mostrar Mapas Interactivos)
+(Visualizar Información en Interfaz Gráfica) --> (Mostrar Zonas de Riesgo)
+(Visualizar Información en Interfaz Gráfica) --> (Mostrar Rutas de Evacuación)
+
+"Usuario" --> (Acceder al Módulo Educativo)
+(Acceder al Módulo Educativo) --> (Brindar Orientación sobre Prevención de Desastres)
+
+"Administrador" --> (Registrar Eventos Históricos)
+(Registrar Eventos Históricos) --> (Documentar Acciones Tomadas)
+(Registrar Eventos Históricos) --> (Evaluar Estrategias de Respuesta)
+
+@enduml
+
+*************************************************
+@startuml
+left to right direction
+title Requisitos No Funcionales
+
+actor "Usuario"
+actor "Sistema"
+actor "Administrador"
+
+"Usuario" --> (Acceder al Sistema 24/7)
+"Sistema" --> (Garantizar Disponibilidad)
+"Sistema" --> (Garantizar Alta Disponibilidad con Menos del 1% de Error)
+
+"Usuario" --> (Acceder desde Plataforma Web)
+"Usuario" --> (Acceder desde Dispositivos Móviles)
+
+"Sistema" --> (Implementar Seguridad Avanzada)
+"Sistema" --> (Cifrado de Datos)
+"Sistema" --> (Autenticación de Usuarios)
+
+"Sistema" --> (Escalar según el Volumen de Usuarios)
+
+@enduml
