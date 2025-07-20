@@ -1,0 +1,26 @@
+import os
+import openai
+
+openai.api_key = os.getenv("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")
+
+# Inicializa el cliente
+client = OpenAI(api_key=api_key)
+
+# Itera por cada carpeta (excepto la generadora y las ocultas)
+ffor folder in os.listdir('.'):
+    if os.path.isdir(folder) and folder != "readme-generator" and not folder.startswith('.'):
+        prompt = f"Genera un README.md descriptivo y profesional para un proyecto con esta carpeta: {folder}. Está en una organización educativa llamada CampusCodeUNED."
+
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "Eres un generador de documentación para repositorios de GitHub educativos."},
+                {"role": "user", "content": prompt}
+            ]
+        )
+
+        readme_path = os.path.join(folder, "README.md")
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(response.choices[0].message.content)
+
+        print(f"README.md generado para {folder}")
