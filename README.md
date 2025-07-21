@@ -15,19 +15,33 @@
 Cada curso dispone de un directorio propio donde se organizan los trabajos por tema o número de entrega, siguiendo una estructura clara y ordenada:
 
 ```
-CampusCodeUNED/  
-├── Curso_Nombre1/  
-│   ├── Trabajo_01/  
-│   │   ├── Enunciado.pdf  
-│   │   ├── Solucion.pdf  
-│   │   └── README.md  
-│   └── Trabajo_02/  
-│       ├── Enunciado.pdf  
-│       ├── Solucion.pdf  
-│       └── README.md  
-├── Curso_Nombre2/  
-│   └── ...  
-└── Curso_NombreN/  
+📦 CampusCodeUNED
+│
+├── 📁 Diplomado/
+│   ├── 📁 Colaborador_1/
+│   │   ├── 📁 Introduccion_Informatica/
+│   │   └── 📁 Redes_Basicas/
+│   ├── 📁 Colaborador_2/
+│   │   └── 📁 Introduccion_Informatica/
+│   └── README.md
+│
+├── 📁 Bachillerato/
+│   ├── 📁 Colaborador_1/
+│   │   └── 📁 Estructuras_Datos/
+│   └── 📁 Colaborador_2/
+│       └── 📁 Programacion_Avanzada/
+│
+├── 📁 Libros/
+│   ├── 📄 libro_redes.pdf
+│   ├── 📄 estructuras_datos_basicas.pdf
+│   └── README.md
+│
+├── 📁 Materiales/
+│   ├── 📄 guia_programacion.md
+│   └── 📄 recursos_informatica.xlsx
+│
+└── README.md
+ 
 ```
 
 
