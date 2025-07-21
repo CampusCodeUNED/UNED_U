@@ -1,11 +1,20 @@
-# 🎓 CampusCodeUNED
-
-**CampusCodeUNED** es un repositorio académico organizado para almacenar los **enunciados de trabajos** junto con sus respectivas **soluciones**, desarrollados en el marco de diversos cursos de la **Universidad Estatal a Distancia (UNED)**. Este espacio tiene como propósito funcionar como archivo personal, portafolio de evidencias académicas y referencia para el aprendizaje continuo.
+<table>
+  <tr>
+    <td style="width: 70%;">
+      <h1>🎓 CampusCodeUNED</h1>
+      <p><strong>CampusCodeUNED</strong> es un repositorio académico organizado para almacenar los <strong>enunciados de trabajos</strong> junto con sus respectivas <strong>soluciones</strong>, desarrollados en el marco de diversos cursos de la <strong>Universidad Estatal a Distancia (UNED)</strong>. Este espacio tiene como propósito funcionar como archivo personal, portafolio de evidencias académicas y referencia para el aprendizaje continuo.</p>
+    </td>
+    <td style="width: 30%;">
+      <img src="https://media3.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200" alt="Código animado" />
+    </td>
+  </tr>
+</table>
 
 ## 📁 Estructura del repositorio
 
 Cada curso dispone de un directorio propio donde se organizan los trabajos por tema o número de entrega, siguiendo una estructura clara y ordenada:
 
+```
 CampusCodeUNED/  
 ├── Curso_Nombre1/  
 │   ├── Trabajo_01/  
@@ -19,6 +28,9 @@ CampusCodeUNED/
 ├── Curso_Nombre2/  
 │   └── ...  
 └── Curso_NombreN/  
+```
+
+
 
 ## 🧾 Contenido de cada trabajo
 
@@ -53,26 +65,53 @@ CampusCodeUNED/
 - 📄 **Documentación adicional**:  
   - Cada trabajo incluye un archivo `README.md` para describir objetivos, temas y herramientas utilizadas.
 
-## ⚠️ Nota importante
+---
 
-Este repositorio es de uso **personal y educativo**. Los contenidos aquí publicados corresponden a trabajos realizados por el autor durante su formación en la UNED y **no deben utilizarse para plagio o copia indebida**. Su finalidad es exclusivamente **formativa y de archivo académico**.
+## 💻 Lenguajes de programación
 
-## 🧠 Recomendación
+<div align="center">
 
-Para mantener claridad y trazabilidad, organiza cada curso con nombres claros y orden cronológico, y agrega una breve descripción en cada subcarpeta.
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />&nbsp;
+  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" />&nbsp;
+  <img alt="C#" src="https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+</p>
 
-Ejemplo:
+<p>
+  <img alt="C++" src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />&nbsp;
+  <img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />&nbsp;
+  <img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white" />&nbsp;
+  <img alt="R" src="https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+</p>
 
-📘 Matematica_I/  
-├── Trabajo_01/  
-│   ├── Enunciado.pdf  
-│   ├── Solucion.pdf  
-│   └── README.md  
-└── Proyecto_Final/  
-    ├── Enunciado.pdf  
-    ├── Solucion.py  
-    └── README.md  
+</div>
+
+---
+
+## 🛠️ Tecnologías y herramientas
+
+<div align="center">
+
+<p>
+  <img alt="Visual Studio Code" src="https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />&nbsp;
+  <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />&nbsp;
+  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />&nbsp;
+  <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+</p>
+
+<p>
+  <img alt="Google Colab" src="https://img.shields.io/badge/-Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=black" />&nbsp;
+  <img alt="NetBeans" src="https://img.shields.io/badge/-NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" />&nbsp;
+  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" />&nbsp;
+  <img alt="Android Studio" src="https://img.shields.io/badge/-Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+</p>
+
+</div>
+
+---
 
 ## ✍️ Autor
 
-Repositorio mantenido por **Antonio** – estudiante UNED  
+Repositorio mantenido por **Antonio** – estudiante UNED
+
