@@ -149,5 +149,48 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 ## ✍️ Autor
 
 Repositorio mantenido por **Antonio** – estudiante de la Universidad Estatal a Distancia (UNED).
+-----------
+<table cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"><br>
+      <sub><b>Python</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60"><br>
+      <sub><b>JavaScript</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="60"><br>
+      <sub><b>Java</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="60"><br>
+      <sub><b>C#</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60"><br>
+      <sub><b>C++</b></sub>
+    </td>
+    <td align="center">
+      <a href="https://es.m.wikipedia.org/wiki/Archivo:LaTeX_logo.svg" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.com/user-attachments/assets/d79d7dbe-a035-44ed-9e15-39827e275b3d" width="60" alt="LaTeX" />
+      </a><br>
+      <sub><b>LaTeX</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" width="60" alt="R"><br>
+      <sub><b>R</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="60" alt="MATLAB"><br>
+      <sub><b>MATLAB</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/GNS3_logo.svg" width="60" alt="GNS3"><br>
+      <sub><b>GNS3</b></sub>
+    </td>
+  </tr>
+</table>
 
 
