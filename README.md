@@ -146,10 +146,6 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>NetBeans</b></sub>
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Overleaf_logo.svg" width="60" alt="Overleaf"><br>
-      <sub><b>Overleaf</b></sub>
-    </td>
-    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="60" alt="Visual Studio 2022"><br>
       <sub><b>Visual Studio 2022</b></sub>
     </td>
@@ -163,7 +159,6 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
     </td>
   </tr>
 </table>
-
 
 ---
 
