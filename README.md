@@ -10,6 +10,8 @@
   </tr>
 </table>
 
+---
+
 ## 📁 Estructura del repositorio
 
 Cada curso dispone de un directorio propio donde se organizan los trabajos por tema o número de entrega, siguiendo una estructura clara y ordenada:
@@ -41,16 +43,17 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 │   └── 📄 recursos_informatica.xlsx
 │
 └── README.md
- 
 ```
 
-
+---
 
 ## 🧾 Contenido de cada trabajo
 
 - 📄 **Enunciado.pdf**: documento original con el enunciado asignado.  
 - ✅ **Solucion.pdf** o carpeta `Solucion/`: resolución elaborada por el estudiante.  
 - 📝 **README.md**: descripción breve del contenido, temas abordados y herramientas utilizadas.
+
+---
 
 ## 🎯 Objetivos del repositorio
 
@@ -59,73 +62,109 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 - 💼 Construir un portafolio organizado y reutilizable para evaluaciones y proyectos.  
 - 🧠 Facilitar la revisión de conceptos y el aprendizaje continuo.
 
-## 🛠️ Tecnologías y formatos utilizados
-
-- 📂 **Formatos de archivo comunes**:  
-  - 📄 `.pdf` – Documentos de enunciados y soluciones  
-  - 📄 `.docx` – Informes en Microsoft Word  
-  - 📄 `.tex` – Documentos escritos en LaTeX  
-  - 🐍 `.py` – Código fuente en Python  
-  - ☕ `.java` – Código fuente en Java  
-  - 🛢️ `.sql` – Scripts para bases de datos
-
-- 🧰 **Herramientas empleadas**:  
-  - 🧪 Overleaf (LaTeX)  
-  - 📝 Microsoft Word y Excel  
-  - 💻 Python (VS Code, Jupyter Notebook)  
-  - ☕ NetBeans (Java)  
-  - 🗄️ SQL Server / MySQL
-
-- 📄 **Documentación adicional**:  
-  - Cada trabajo incluye un archivo `README.md` para describir objetivos, temas y herramientas utilizadas.
-
 ---
 
 ## 💻 Lenguajes de programación
 
-<div align="center">
-
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />&nbsp;
-  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" />&nbsp;
-  <img alt="C#" src="https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-</p>
-
-<p>
-  <img alt="C++" src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />&nbsp;
-  <img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />&nbsp;
-  <img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-0076A8?style=for-the-badge&logo=matlab&logoColor=white" />&nbsp;
-  <img alt="R" src="https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-</p>
-
-</div>
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"><br>
+      <sub><b>Python</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60"><br>
+      <sub><b>JavaScript</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="60"><br>
+      <sub><b>Java</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="60"><br>
+      <sub><b>C#</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60"><br>
+      <sub><b>C++</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d79d7dbe-a035-44ed-9e15-39827e275b3d" width="60" alt="LaTeX"><br>
+      <sub><b>LaTeX</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" width="60" alt="R"><br>
+      <sub><b>R</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="60" alt="MATLAB"><br>
+      <sub><b>MATLAB</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="60"><br>
+      <sub><b>SQL</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Tecnologías y herramientas
+## 🛠️ Herramientas utilizadas
 
-<div align="center">
+<table cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" alt="Git"><br>
+      <sub><b>Git</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" alt="GitHub"><br>
+      <sub><b>GitHub</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60" alt="Docker"><br>
+      <sub><b>Docker</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60" alt="VS Code"><br>
+      <sub><b>VS Code</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" alt="Linux"><br>
+      <sub><b>Linux</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="60" alt="MySQL"><br>
+      <sub><b>MySQL</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ec73325d-65e3-468d-a949-963881ca37c7" width="60" alt="GNS3"><br>
+      <sub><b>GNS3</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ebc61fa4-1c99-4f0e-a799-905ba6e03133" width="60" alt="NetBeans"><br>
+      <sub><b>NetBeans</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="60" alt="Visual Studio 2022"><br>
+      <sub><b>Visual Studio 2022</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f5657072-f12a-45d9-8559-8faa9f83a9d8" width="60" alt="PSeInt"><br>
+      <sub><b>PSeInt</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/70a8dd3d-fcb4-4076-8240-db4e8710c171" width="60" alt="SQL Server Express"><br>
+      <sub><b>SQL Server Express</b></sub>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />&nbsp;
-  <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />&nbsp;
-  <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />&nbsp;
-  <img alt="Jupyter" src="https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
-
-<p>
-  <img alt="Google Colab" src="https://img.shields.io/badge/-Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=black" />&nbsp;
-  <img alt="NetBeans" src="https://img.shields.io/badge/-NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" />&nbsp;
-  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/-IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" />&nbsp;
-  <img alt="Android Studio" src="https://img.shields.io/badge/-Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
-</p>
-
-</div>
 
 ---
 
 ## ✍️ Autor
 
-Repositorio mantenido por **Antonio** – estudiante UNED
+Repositorio mantenido por **Antonio** – estudiante de la Universidad Estatal a Distancia (UNED).
+
 
