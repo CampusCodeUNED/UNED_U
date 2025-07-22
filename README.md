@@ -149,6 +149,18 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Overleaf_logo.svg" width="60" alt="Overleaf"><br>
       <sub><b>Overleaf</b></sub>
     </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="60" alt="Visual Studio 2022"><br>
+      <sub><b>Visual Studio 2022</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn-icons-png.flaticon.com/512/3524/3524637.png" width="60" alt="PSeInt"><br>
+      <sub><b>PSeInt</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Microsoft_SQL_Server_Logo.svg" width="60" alt="SQL Server Express"><br>
+      <sub><b>SQL Server Express</b></sub>
+    </td>
   </tr>
 </table>
 
