@@ -137,7 +137,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>MySQL</b></sub>
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/GNS3_logo.png" width="60" alt="GNS3"><br>
+      <img width="60" alt="GNS3" src="https://github.com/user-attachments/assets/ec73325d-65e3-468d-a949-963881ca37c7"><br>
       <sub><b>GNS3</b></sub>
     </td>
   </tr>
