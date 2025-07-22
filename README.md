@@ -10,6 +10,8 @@
   </tr>
 </table>
 
+---
+
 ## 📁 Estructura del repositorio
 
 Cada curso dispone de un directorio propio donde se organizan los trabajos por tema o número de entrega, siguiendo una estructura clara y ordenada:
@@ -41,10 +43,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 │   └── 📄 recursos_informatica.xlsx
 │
 └── README.md
- 
 ```
-
-
 
 ---
 
@@ -90,9 +89,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>C++</b></sub>
     </td>
     <td align="center">
-      <a href="https://es.m.wikipedia.org/wiki/Archivo:LaTeX_logo.svg" target="_blank" rel="noopener noreferrer">
-        <img src="https://github.com/user-attachments/assets/d79d7dbe-a035-44ed-9e15-39827e275b3d" width="60" alt="LaTeX" />
-      </a><br>
+      <img src="https://github.com/user-attachments/assets/d79d7dbe-a035-44ed-9e15-39827e275b3d" width="60" alt="LaTeX"><br>
       <sub><b>LaTeX</b></sub>
     </td>
     <td align="center">
@@ -103,6 +100,10 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="60" alt="MATLAB"><br>
       <sub><b>MATLAB</b></sub>
     </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="60"><br>
+      <sub><b>SQL</b></sub>
+    </td>
   </tr>
 </table>
 
@@ -110,7 +111,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 
 ## 🛠️ Herramientas utilizadas
 
-<table cellspacing="0" cellpadding="0">
+<table cellspacing="0" cellpadding="0" align="center">
   <tr>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60"><br>
@@ -137,16 +138,24 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>MySQL</b></sub>
     </td>
     <td align="center">
-      <img width="60" alt="GNS3" src="https://github.com/user-attachments/assets/ec73325d-65e3-468d-a949-963881ca37c7"><br>
+      <img src="https://github.com/user-attachments/assets/ec73325d-65e3-468d-a949-963881ca37c7" width="60" alt="GNS3"><br>
       <sub><b>GNS3</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://seeklogo.com/images/N/netbeans-logo-B8C0F85CAF-seeklogo.com.png" width="60" alt="NetBeans"><br>
+      <sub><b>NetBeans</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Overleaf_logo.svg" width="60" alt="Overleaf"><br>
+      <sub><b>Overleaf</b></sub>
     </td>
   </tr>
 </table>
-
 
 ---
 
 ## ✍️ Autor
 
 Repositorio mantenido por **Antonio** – estudiante de la Universidad Estatal a Distancia (UNED).
+
 
