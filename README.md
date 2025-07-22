@@ -142,7 +142,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>GNS3</b></sub>
     </td>
     <td align="center">
-      <img src="https://seeklogo.com/images/N/netbeans-logo-B8C0F85CAF-seeklogo.com.png" width="60" alt="NetBeans"><br>
+      <img src="https://github.com/user-attachments/assets/ebc61fa4-1c99-4f0e-a799-905ba6e03133" width="60" alt="NetBeans"><br>
       <sub><b>NetBeans</b></sub>
     </td>
     <td align="center">
