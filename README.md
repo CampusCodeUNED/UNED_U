@@ -154,7 +154,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>Visual Studio 2022</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/3524/3524637.png" width="60" alt="PSeInt"><br>
+      <img src="https://github.com/user-attachments/assets/f5657072-f12a-45d9-8559-8faa9f83a9d8" width="60" alt="PSeInt"><br>
       <sub><b>PSeInt</b></sub>
     </td>
     <td align="center">
@@ -163,6 +163,7 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
     </td>
   </tr>
 </table>
+
 
 ---
 
