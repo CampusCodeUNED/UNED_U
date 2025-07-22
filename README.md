@@ -114,27 +114,27 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
 <table cellspacing="0" cellpadding="0" align="center">
   <tr>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" alt="Git"><br>
       <sub><b>Git</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" alt="GitHub"><br>
       <sub><b>GitHub</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60" alt="Docker"><br>
       <sub><b>Docker</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60" alt="VS Code"><br>
       <sub><b>VS Code</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" alt="Linux"><br>
       <sub><b>Linux</b></sub>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="60"><br>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="60" alt="MySQL"><br>
       <sub><b>MySQL</b></sub>
     </td>
     <td align="center">
@@ -154,11 +154,12 @@ Cada curso dispone de un directorio propio donde se organizan los trabajos por t
       <sub><b>PSeInt</b></sub>
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Microsoft_SQL_Server_Logo.svg" width="60" alt="SQL Server Express"><br>
+      <img src="https://github.com/user-attachments/assets/70a8dd3d-fcb4-4076-8240-db4e8710c171" width="60" alt="SQL Server Express"><br>
       <sub><b>SQL Server Express</b></sub>
     </td>
   </tr>
 </table>
+
 
 ---
 
