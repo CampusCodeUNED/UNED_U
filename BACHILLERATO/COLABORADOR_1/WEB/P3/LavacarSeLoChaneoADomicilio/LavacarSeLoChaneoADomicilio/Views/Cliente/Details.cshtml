@@ -1,0 +1,58 @@
+﻿@model LavacarSeLoChaneoADomicilio.Models.Cliente
+@{
+    ViewData["Title"] = "Detalles del Cliente";
+    var vehiculos = ViewBag.Vehiculos as List<LavacarSeLoChaneoADomicilio.Models.Vehiculo>;
+}
+
+<h2>Detalles del Cliente</h2>
+
+<table class="table table-bordered">
+    <tr><th>Identificación</th><td>@Model.Identificacion</td></tr>
+    <tr><th>Nombre</th><td>@Model.NombreCompleto</td></tr>
+    <tr><th>Provincia</th><td>@Model.Provincia</td></tr>
+    <tr><th>Cantón</th><td>@Model.Canton</td></tr>
+    <tr><th>Distrito</th><td>@Model.Distrito</td></tr>
+    <tr><th>Dirección</th><td>@Model.DireccionExacta</td></tr>
+    <tr><th>Teléfono</th><td>@Model.Telefono</td></tr>
+    <tr><th>Preferencia de Lavado</th><td>@Model.PreferenciaLavado</td></tr>
+</table>
+
+<h3>Vehículos Asociados</h3>
+
+@if (vehiculos != null && vehiculos.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Placa</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Tracción</th>
+                <th>Color</th>
+                <th>Última Atención</th>
+                <th>NanoCerámico</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var v in vehiculos)
+            {
+                <tr>
+                    <td>@v.Placa</td>
+                    <td>@v.Marca</td>
+                    <td>@v.Modelo</td>
+                    <td>@v.Traccion</td>
+                    <td>@v.Color</td>
+                    <td>@(v.UltimaFechaAtencion?.ToString("dd/MM/yyyy") ?? "-")</td>
+                    <td>@(v.TratamientoNanoCeramico ? "Sí" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay vehículos asociados a este cliente.</p>
+}
+
+<a asp-action="Edit" asp-route-identificacion="@Model.Identificacion" class="btn btn-warning">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

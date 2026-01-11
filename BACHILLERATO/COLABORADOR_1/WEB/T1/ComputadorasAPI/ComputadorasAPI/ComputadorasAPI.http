@@ -1,0 +1,6 @@
+@ComputadorasAPI_HostAddress = http://localhost:5189
+
+GET {{ComputadorasAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

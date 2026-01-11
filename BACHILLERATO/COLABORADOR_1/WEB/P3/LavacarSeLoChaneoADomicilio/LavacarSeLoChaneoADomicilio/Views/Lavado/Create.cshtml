@@ -1,0 +1,113 @@
+﻿@model LavacarSeLoChaneoADomicilio.Models.Lavado
+@using LavacarSeLoChaneoADomicilio.Models
+@{
+    ViewData["Title"] = "Registrar Lavado";
+    var empleados = ViewBag.Empleados as List<Empleado>;
+    var clientes = ViewBag.Clientes as List<Cliente>;
+    var vehiculos = ViewBag.Vehiculos as List<Vehiculo>;
+}
+
+<h2>Registrar Lavado</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label>Empleado</label>
+        <select asp-for="EmpleadoCedula" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (var e in empleados)
+            {
+                <option value="@e.Cedula">@e.Cedula</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Cliente</label>
+        <select id="clienteSelect" asp-for="ClienteId" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (var c in clientes)
+            {
+                <option value="@c.Identificacion">@c.NombreCompleto</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Vehículo</label>
+        <select id="vehiculoSelect" asp-for="VehiculoPlaca" class="form-select" required>
+            <option value="">-- Seleccione un cliente primero --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Tipo de Lavado</label>
+        <select asp-for="Tipo" class="form-select" required id="Tipo">
+            <option value="">-- Seleccione --</option>
+            @foreach (TipoLavado tipo in Enum.GetValues(typeof(TipoLavado)))
+            {
+                <option value="@((int)tipo)">@tipo</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3" id="precio-personalizado" style="display:none;">
+        <label>Precio personalizado "La Joya"</label>
+        <input asp-for="Precio" type="number" step="100" class="form-control" id="Precio" />
+    </div>
+
+    <div class="mb-3">
+        <label>Estado</label>
+        <select asp-for="Estado" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (EstadoLavado estado in Enum.GetValues(typeof(EstadoLavado)))
+            {
+                <option value="@((int)estado)">@estado</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <script>
+        const tipoSelect = document.getElementById("Tipo");
+        const precioDiv = document.getElementById("precio-personalizado");
+        const precioInput = document.getElementById("Precio");
+
+        const clienteSelect = document.getElementById("clienteSelect");
+        const vehiculoSelect = document.getElementById("vehiculoSelect");
+        const todosVehiculos = @Html.Raw(Json.Serialize(ViewBag.Vehiculos));
+
+        function togglePrecio() {
+            if (tipoSelect.value === "3") {
+                precioDiv.style.display = "block";
+                precioInput.disabled = false;
+            } else {
+                precioDiv.style.display = "none";
+                precioInput.disabled = true;
+                precioInput.value = "0";
+            }
+        }
+
+        tipoSelect.addEventListener("change", togglePrecio);
+        document.addEventListener("DOMContentLoaded", togglePrecio);
+
+        clienteSelect.addEventListener("change", function () {
+            const clienteId = this.value;
+            const filtrados = todosVehiculos.filter(v =>
+                v.clienteIdentificacion === clienteId ||
+                v.ClienteIdentificacion === clienteId
+            );
+
+            vehiculoSelect.innerHTML = '<option value="">-- Seleccione --</option>';
+            filtrados.forEach(v => {
+                const opt = document.createElement("option");
+                opt.value = v.placa || v.Placa;
+                opt.textContent = `${v.marca || v.Marca} ${v.modelo || v.Modelo} (${v.placa || v.Placa})`;
+                vehiculoSelect.appendChild(opt);
+            });
+        });
+    </script>
+}

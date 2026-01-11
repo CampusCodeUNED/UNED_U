@@ -1,0 +1,79 @@
+﻿@model List<LavacarSeLoChaneoADomicilio.Models.Lavado>
+@{
+    ViewData["Title"] = "Lavados";
+}
+<h2 class="mb-4">Lavados Registrados</h2>
+<a class="btn btn-primary mb-3" asp-action="Create">Registrar Lavado</a>
+<form asp-action="Index" method="get" class="row g-2 mb-4 justify-content-end">
+    <div class="col-auto">
+        <input type="text" name="busqueda" class="form-control" placeholder="Buscar por cliente, placa..."
+               value="@ViewBag.Busqueda" />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+    </div>
+</form>
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>ID</th>
+            <th>Vehículo</th>
+            <th>Cliente</th>
+            <th>Empleado</th>
+            <th>Tipo</th>
+            <th>Estado</th>
+            <th>Precio</th>
+            <th>IVA</th>
+            <th>Total</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var l in Model)
+        {
+            <tr>
+                <td>@l.Id</td>
+                <td>
+                    @if (l.Vehiculo != null)
+                    {
+                        @($"{l.Vehiculo.Marca} {l.Vehiculo.Modelo} ({l.Vehiculo.Placa})")
+                    }
+                    else
+                    {
+                        @l.VehiculoPlaca
+                    }
+                </td>
+                <td>
+                    @if (l.Cliente != null)
+                    {
+                        @($"{l.Cliente.NombreCompleto} ({l.Cliente.Identificacion})")
+                    }
+                    else
+                    {
+                        @l.ClienteId
+                    }
+                </td>
+                <td>
+                    @if (l.Empleado != null)
+                    {
+                        @l.Empleado.Cedula
+                    }
+                    else
+                    {
+                        @l.EmpleadoCedula
+                    }
+                </td>
+                <td>@l.Tipo.ToString()</td>
+                <td>@l.Estado.ToString()</td>
+                <td>@l.Precio.ToString("C")</td>
+                <td>@l.IVA.ToString("C")</td>
+                <td>@l.Total.ToString("C")</td>
+                <td>
+                    <a class="btn btn-info btn-sm mb-1" asp-action="Details" asp-route-id="@l.Id">Ver</a>
+                    <a class="btn btn-warning btn-sm mb-1" asp-action="Edit" asp-route-id="@l.Id">Editar</a>
+                    <a class="btn btn-danger btn-sm mb-1" asp-action="Delete" asp-route-id="@l.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

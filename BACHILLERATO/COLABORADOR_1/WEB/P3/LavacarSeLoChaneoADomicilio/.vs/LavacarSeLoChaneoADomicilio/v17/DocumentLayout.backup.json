@@ -1,0 +1,593 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\vehiculohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\vehiculohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\clientehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\clientehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\data\\lavadodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\data\\lavadodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\clientependientecontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\clientependientecontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\reportehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\reportehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\lavadohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\lavadohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\empleadohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\empleadohttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\clientependientecontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\clientependientecontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\AppWeb.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p3\\lavacarselochaneoadomicilio\\api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F84E0546-2E36-434D-9F29-006DD85A2796}|API\\API.csproj|solutionrelative:api\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Program.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Program.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Program.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T00:20:51.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LavadoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Data\\LavadoDbContext.cs",
+              "RelativeDocumentMoniker": "API\\Data\\LavadoDbContext.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Data\\LavadoDbContext.cs",
+              "RelativeToolTip": "API\\Data\\LavadoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:25:07.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\appsettings.json",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\appsettings.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\appsettings.json",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T02:23:10.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Cliente.cs",
+              "RelativeToolTip": "API\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:29:11.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientePendienteContacto.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\ClientePendienteContacto.cs",
+              "RelativeDocumentMoniker": "API\\Models\\ClientePendienteContacto.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\ClientePendienteContacto.cs",
+              "RelativeToolTip": "API\\Models\\ClientePendienteContacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:29:51.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ClienteHttpService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\ClienteHttpService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ClienteHttpService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\ClienteHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:47.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehiculoHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\VehiculoHttpService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\VehiculoHttpService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\VehiculoHttpService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\VehiculoHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:37:28.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:22:33.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T02:23:15.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EstadoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\EstadoLavado.cs",
+              "RelativeDocumentMoniker": "API\\Models\\EstadoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\EstadoLavado.cs",
+              "RelativeToolTip": "API\\Models\\EstadoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:30:21.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:40.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmpleadoHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\EmpleadoHttpService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\EmpleadoHttpService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\EmpleadoHttpService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\EmpleadoHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:36:14.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LavadoHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\LavadoHttpService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\LavadoHttpService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\LavadoHttpService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\LavadoHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:36:44.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReporteHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ReporteHttpService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\ReporteHttpService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ReporteHttpService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\ReporteHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:37:14.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TipoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:30.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EstadoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:26.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:16.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:11.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClientePendienteContacto.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ClientePendienteContacto.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\ClientePendienteContacto.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ClientePendienteContacto.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\ClientePendienteContacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:35:05.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:34:51.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:34:01.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReporteController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ReporteController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\ReporteController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ReporteController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\ReporteController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:33:46.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LavadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:32:53.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:32:35.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:31:58.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:31:13.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Empleado.cs",
+              "RelativeToolTip": "API\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:30:15.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Lavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Lavado.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Lavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Lavado.cs",
+              "RelativeToolTip": "API\\Models\\Lavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:29:25.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "API\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA6wAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:29:15.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TipoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\TipoLavado.cs",
+              "RelativeDocumentMoniker": "API\\Models\\TipoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Models\\TipoLavado.cs",
+              "RelativeToolTip": "API\\Models\\TipoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:29:14.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "API\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:27:45.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReporteController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\ReporteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ReporteController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\ReporteController.cs",
+              "RelativeToolTip": "API\\Controllers\\ReporteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:27:33.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LavadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\LavadoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\LavadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\LavadoController.cs",
+              "RelativeToolTip": "API\\Controllers\\LavadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:26:59.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P3\\LavacarSeLoChaneoADomicilio\\API\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T02:25:25.38Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

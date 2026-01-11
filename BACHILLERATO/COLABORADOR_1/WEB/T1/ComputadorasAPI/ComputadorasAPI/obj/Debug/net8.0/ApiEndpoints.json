@@ -1,0 +1,137 @@
+[
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Computadoras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ComputadorasAPI.Models.Computadora, ComputadorasAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "Create",
+    "RelativePath": "api/Computadoras",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "computadora",
+        "Type": "ComputadorasAPI.Models.Computadora",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ComputadorasAPI.Models.Computadora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "GetById",
+    "RelativePath": "api/Computadoras/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ComputadorasAPI.Models.Computadora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "AddSoftware",
+    "RelativePath": "api/Computadoras/{id}/software",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "software",
+        "Type": "ComputadorasAPI.Models.Software",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "UpdateSoftware",
+    "RelativePath": "api/Computadoras/{id}/software",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "software",
+        "Type": "ComputadorasAPI.Models.Software",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComputadorasAPI.Controllers.ComputadorasController",
+    "Method": "DeleteSoftware",
+    "RelativePath": "api/Computadoras/{id}/software/{softwareId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "softwareId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

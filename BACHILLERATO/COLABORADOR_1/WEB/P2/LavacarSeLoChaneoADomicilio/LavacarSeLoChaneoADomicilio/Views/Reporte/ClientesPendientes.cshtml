@@ -1,0 +1,41 @@
+﻿@model List<AppWeb.Models.ClientePendienteContacto>
+
+@{
+    ViewData["Title"] = "Clientes Pendientes de Contactar";
+}
+
+<h2>Clientes a contactar (más de 1 mes sin lavado)</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No hay clientes con lavados pendientes.</div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Identificación</th>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Vehículos pendientes</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.Identificacion</td>
+                    <td>@c.NombreCompleto</td>
+                    <td>@c.Telefono</td>
+                    <td>
+                        @foreach (var placa in c.PlacasVehiculosPendientes)
+                        {
+                            <span class="badge bg-secondary me-1">@placa</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

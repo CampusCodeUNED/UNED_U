@@ -1,0 +1,673 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\lavadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\lavadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\lavadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\cliente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\cliente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\tipolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\lavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\estadolavado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\lavado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\lavado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\lavado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\lavado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\lavado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\lavado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\lavado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\lavado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\vehiculo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\vehiculo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\vehiculo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\vehiculo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\vehiculo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\vehiculo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\vehiculo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\vehiculo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\empleado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\empleado\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\empleado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\empleado\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|c:\\users\\personal\\desktop\\ii cuatri 2025\\web\\p1\\sin javascript\\lavacarselochaneoadomicilio\\lavacarselochaneoadomicilio\\views\\empleado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB133051-66BD-40C4-8CDC-4ECEB1AEF0F9}|LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio.csproj|solutionrelative:lavacarselochaneoadomicilio\\views\\empleado\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehiculoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\VehiculoController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:37:24.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T23:40:47.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\ClienteService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\ClienteService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T23:41:40.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\EmpleadoService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T00:20:30.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LavadoService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\LavadoService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\LavadoService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\LavadoService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\LavadoService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:52:51.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Services\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Services\\VehiculoService.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Services\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:25:29.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T00:05:21.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LavadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\LavadoController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:52:46.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:37:10.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:37:04.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Program.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Program.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Program.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T00:21:08.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T18:56:53.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T03:10:25.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:06.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Edit.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:02.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Details.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Details.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:04:18.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Create.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Create.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Cliente\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T17:30:56.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Vehiculo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:29:25.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TipoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\TipoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:01:52.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Lavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Lavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:01:52.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstadoLavado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\EstadoLavado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T09:01:50.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T00:19:45.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:12:07.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Create.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Create.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Create.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:25:08.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T18:57:01.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T18:57:04.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T18:57:10.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T00:21:05.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T03:12:55.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Index.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T03:13:23.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Edit.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAA3wEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T12:25:11.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Details.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Details.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:16.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Edit.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:19.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Index.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:23.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Create.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Create.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:55.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Details.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Details.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:59.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Edit.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:54:03.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Index.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Vehiculo\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:54:06.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Create.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Create.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Empleado\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T01:53:11.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Details.cshtml",
+              "RelativeDocumentMoniker": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\II CUATRI 2025\\WEB\\P1\\SIN JAVASCRIPT\\LavacarSeLoChaneoADomicilio\\LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Details.cshtml",
+              "RelativeToolTip": "LavacarSeLoChaneoADomicilio\\Views\\Lavado\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T03:13:04.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

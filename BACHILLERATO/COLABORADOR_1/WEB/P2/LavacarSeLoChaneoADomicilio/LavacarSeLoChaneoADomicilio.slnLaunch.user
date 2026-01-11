@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "LavacarSeLoChaneoADomicilio\\AppWeb.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "API\\API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

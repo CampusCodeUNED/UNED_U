@@ -1,0 +1,175 @@
+﻿@model LavacarSeLoChaneoADomicilio.Models.Lavado
+@using LavacarSeLoChaneoADomicilio.Models
+
+@{
+    ViewData["Title"] = "Editar Lavado";
+    var empleados = ViewBag.Empleados as List<Empleado> ?? new List<Empleado>();
+    var clientes = ViewBag.Clientes as List<Cliente> ?? new List<Cliente>();
+    var vehiculos = ViewBag.Vehiculos as List<Vehiculo> ?? new List<Vehiculo>();
+}
+
+<h2>Editar Lavado</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div class="mb-3">
+        <label>Empleado</label>
+        <select asp-for="EmpleadoCedula" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (var e in empleados)
+            {
+                @if (Model.EmpleadoCedula == e.Cedula)
+                {
+                    <option value="@e.Cedula" selected>@e.Cedula</option>
+                }
+                else
+                {
+                    <option value="@e.Cedula">@e.Cedula</option>
+                }
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Cliente</label>
+        <select id="clienteSelect" asp-for="ClienteId" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (var c in clientes)
+            {
+                @if (Model.ClienteId == c.Identificacion)
+                {
+                    <option value="@c.Identificacion" selected>@c.NombreCompleto</option>
+                }
+                else
+                {
+                    <option value="@c.Identificacion">@c.NombreCompleto</option>
+                }
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Vehículo</label>
+        <select id="vehiculoSelect" asp-for="VehiculoPlaca" class="form-select" required>
+            <option value="">-- Seleccione un cliente --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Tipo de Lavado</label>
+        <select asp-for="Tipo" class="form-select" required id="Tipo">
+            <option value="">-- Seleccione --</option>
+            @foreach (TipoLavado tipo in Enum.GetValues(typeof(TipoLavado)))
+            {
+                @if ((int)Model.Tipo == (int)tipo)
+                {
+                    <option value="@((int)tipo)" selected>@tipo</option>
+                }
+                else
+                {
+                    <option value="@((int)tipo)">@tipo</option>
+                }
+            }
+        </select>
+    </div>
+
+    <div class="mb-3" id="precio-personalizado" style="display:none;">
+        <label>Precio personalizado "La Joya"</label>
+        <input asp-for="Precio" type="number" step="100" class="form-control" id="Precio" />
+    </div>
+
+    <div class="mb-3">
+        <label>Estado</label>
+        <select asp-for="Estado" class="form-select" required>
+            <option value="">-- Seleccione --</option>
+            @foreach (EstadoLavado estado in Enum.GetValues(typeof(EstadoLavado)))
+            {
+                @if ((int)Model.Estado == (int)estado)
+                {
+                    <option value="@((int)estado)" selected>@estado</option>
+                }
+                else
+                {
+                    <option value="@((int)estado)">@estado</option>
+                }
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <script>
+        const tipoSelect = document.getElementById("Tipo");
+        const precioDiv = document.getElementById("precio-personalizado");
+        const precioInput = document.getElementById("Precio");
+        const clienteSelect = document.getElementById("clienteSelect");
+        const vehiculoSelect = document.getElementById("vehiculoSelect");
+        const todosVehiculos = @Html.Raw(Json.Serialize(vehiculos));
+        const vehiculoActual = "@Model.VehiculoPlaca";
+
+        console.log("Tipo actual:", @((int)Model.Tipo));
+        console.log("Estado actual:", @((int)Model.Estado));
+        console.log("VehiculoPlaca actual:", vehiculoActual);
+
+        function togglePrecio() {
+            if (tipoSelect.value === "3") {
+                precioDiv.style.display = "block";
+                precioInput.disabled = false;
+            } else {
+                precioDiv.style.display = "none";
+                precioInput.disabled = true;
+                if (tipoSelect.value !== "3") {
+                    precioInput.value = "0";
+                }
+            }
+        }
+
+        function cargarVehiculos(clienteId) {
+            console.log("Cliente seleccionado:", clienteId);
+            console.log("Todos los vehículos:", todosVehiculos);
+
+            const filtrados = todosVehiculos.filter(v =>
+                v.clienteIdentificacion === clienteId ||
+                v.ClienteIdentificacion === clienteId
+            );
+
+            console.log("Vehículos filtrados:", filtrados);
+            vehiculoSelect.innerHTML = '<option value="">-- Seleccione --</option>';
+
+            filtrados.forEach(v => {
+                const opt = document.createElement("option");
+                opt.value = v.placa || v.Placa;
+                opt.textContent = `${v.marca || v.Marca} ${v.modelo || v.Modelo} (${v.placa || v.Placa})`;
+                if ((v.placa || v.Placa) === vehiculoActual) {
+                    opt.selected = true;
+                }
+                vehiculoSelect.appendChild(opt);
+            });
+
+            if (filtrados.length === 0) {
+                const opt = document.createElement("option");
+                opt.textContent = "Este cliente no tiene vehículos registrados";
+                opt.disabled = true;
+                vehiculoSelect.appendChild(opt);
+            }
+        }
+
+        tipoSelect.addEventListener("change", togglePrecio);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            togglePrecio();
+
+            clienteSelect.addEventListener("change", function () {
+                cargarVehiculos(this.value);
+            });
+
+            if (clienteSelect.value) {
+                cargarVehiculos(clienteSelect.value);
+            }
+        });
+    </script>
+}
