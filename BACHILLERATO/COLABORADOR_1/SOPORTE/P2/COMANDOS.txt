@@ -1,0 +1,13 @@
+sudo adduser dagoberto_matarrita
+sudo adduser francisco_campos
+
+cat /etc/passwd | grep dagoberto_matarrita
+cat /etc/passwd | grep francisco_campos
+
+sudo usermod -aG sudo dagoberto_matarrita
+sudo usermod -aG sudo francisco_campos
+
+su - dagoberto_matarrita
+exit
+
+

@@ -1,0 +1,77 @@
+@startmindmap
+title **Implementación de VPN en Nubes Híbridas Empresariales** 
+
+skinparam backgroundColor #FAF9F6
+skinparam monochrome false
+skinparam node {
+  FontName Arial
+  FontSize 16
+  Shadowing true
+}
+
+* VPN en nube híbrida empresarial
+
+' ---- Primer concepto: Rojo claro ----
+skinparam node {
+  BackgroundColor #FFEBEE
+  BorderColor #F44336
+  FontColor #B71C1C
+}
+** Principales retos de seguridad
+*** Complejidad red privada + nube pública
+**** Más puntos vulnerables
+**** Segmentación y reglas estructuradas
+*** Gestión de claves y certificados
+**** Claves mantienen cifrado VPN
+**** Mala protección expone datos
+*** Control y visibilidad del tráfico
+**** Dificultad para monitorear ambientes mixtos
+**** Herramientas para detectar actividad sospechosa
+*** Coordinación y cumplimiento normativo
+**** Alinear políticas nube privada y pública
+**** Evitar problemas legales
+
+' ---- Segundo concepto: Azul claro ----
+skinparam node {
+  BackgroundColor #E3F2FD
+  BorderColor #2196F3
+  FontColor #0D47A1
+}
+** Contribución a protección de datos sensibles
+*** VPN crea túnel seguro usuario-recursos
+**** Cifrado de la información transmitida
+**** Previene interceptación y manipulación
+*** Acceso remoto seguro a recursos empresariales
+**** Acceso autorizado en todo momento
+*** Cumplimiento de regulaciones de privacidad
+**** Protección durante transmisión
+**** Acceso solo a usuarios autorizados
+
+' ---- Tercer concepto: Verde claro ----
+skinparam node {
+  BackgroundColor #E8F5E9
+  BorderColor #4CAF50
+  FontColor #1B5E20
+}
+** Métodos de autenticación y cifrado efectivos
+*** Estrategia dividida nube privada/pública
+**** Evita exposición de datos sensibles
+*** Autenticación robusta
+**** Contraseñas complejas
+**** Autenticación multifactor (MFA)
+**** Biometría
+*** Controles de acceso basados en funciones
+**** Limita acceso según necesidad
+*** Métodos compatibles
+**** Verificación por SMS
+**** Correo electrónico
+**** Notificación push
+**** Autenticación biométrica
+**** TOTP
+**** Google Authenticator
+**** Microsoft Authenticator
+**** YubiKey Authenticator
+
+caption Elaborado por: Francisco Campos Sandi
+@endmindmap
+
