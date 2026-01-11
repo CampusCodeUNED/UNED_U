@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/AnalizadorVarSeccion.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/io/ResolutorArchivos.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorBeginEnd.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/io/EscritorErrores.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorConst.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ResolutorArchivos.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/principal/Main.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorComentarios.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/reglas/ReglasIdentificadores.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/io/LectorFuente.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/modelo/Fuente.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorUso.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/modelo/Diagnostico.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorFor.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorEncabezadoProgram.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorWrite.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorOrdenEstructural.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorIf.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/reglas/PalabrasReservadas.java</file>
+            <file>file:/C:/Users/Personal/Desktop/III%20CUATRI%202025/COMPILADORES/P2/FINAL/PascalAnalizador/src/validador/ValidadorRepeat.java</file>
+        </group>
+    </open-files>
+</project-private>

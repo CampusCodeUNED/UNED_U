@@ -1,0 +1,13 @@
+DECLARAVAR ENTERO Cont2
+CICLO ( Cont1 = 0; Cont1<20; Cont1 INCREMENTA 1)
+CICLO ( Cont2 = 0; Cont2<20; Cont2 INCREMENTA 1)
+CICLO ( Cont1 = 0; Cont1<20; Cont1 INCREMENTA 1
+CICLO ( Cont1 == 0; Cont1<20 Cont1 INCREMENTA algo)
+CICLO ( Cont1 = 0; Cont1 20 Cont1 INCREMENTA algo)
+CICLO ( Cont1 = 0; Cont1)
+FINCICLO
+INICIO primero
+DECLARAVAR ENTERO miVar
+miVar = 1
+INICIO
+INI

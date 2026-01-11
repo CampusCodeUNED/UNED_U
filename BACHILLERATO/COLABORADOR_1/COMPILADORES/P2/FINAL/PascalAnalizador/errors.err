@@ -1,0 +1,11 @@
+=== REPORTE DE ERRORES - INTÉRPRETE PASCAL ===
+Archivo generado: 2025-09-22 19:45:41
+Total de errores encontrados: 1
+
+Error #1
+Tipo: MISSING_PROGRAM
+Mensaje: No encuentra la palabra inicial program
+Línea: 1
+Timestamp: 2025-09-22 19:45:41
+
+=== FIN DEL REPORTE ===

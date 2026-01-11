@@ -1,0 +1,245 @@
+0001 program demo2;
+0002 uses crt;
+0003 
+0004 const
+0005   MAX_VALOR = 10;
+0006   MENSAJE = 'Prueba de validadores';
+0007 
+0008 var
+0009   i : integer;
+0010   j : integer;
+0011   contador : integer;
+0012   opcion : integer;
+0013   resultado : boolean;
+0014 
+0015 begin
+0016   { Prueba de bucles FOR }
+0017   writeln('Iniciando pruebas de bucles FOR:');
+0018   
+0019   { FOR correcto }
+0020   for i := 1 to MAX_VALOR do
+0021   begin
+0022     writeln('Iteración: ', i);
+0023   end;
+0024   
+0025   { FOR con error de tabulación }
+0026   for j := 1 to 5 do
+0027    begin
+0028       writeln('Tabulación incorrecta');
+0029   end;
+0030   
+0031   { FOR sin contenido }
+0032   for contador := 10 downto 1 do
+0033   begin
+0034   end;
+0035   
+0036   { Prueba de estructuras IF }
+0037   writeln('Iniciando pruebas de estructuras IF:');
+0038   
+0039   { IF correcto }
+0040   if i > 5 then
+0041   begin
+0042     writeln('i es mayor que 5');
+0043   end;
+0044   
+0045   { IF-ELSE correcto }
+0046   if j < 3 then
+0047   begin
+0048     writeln('j es menor que 3');
+0049   end
+0050   else
+0051   begin
+0052     writeln('j es mayor o igual a 3');
+0053   end;
+0054   
+0055   { IF con error de tabulación }
+0056   if opcion = 1 then
+0057      begin
+0058       writeln('Opción 1 seleccionada');
+0059     end;
+0060   
+0061   { IF-ELSE con errores de tabulación }
+0062   if opcion = 2 then
+0063   begin
+0064     writeln('Opción 2');
+0065   end
+0066  else
+0067     begin
+0068     writeln('No es opción 2');
+0069   end;
+0070   
+0071   { Prueba de estructuras REPEAT }
+0072   writeln('Iniciando pruebas de estructuras REPEAT:');
+0073   
+0074   { REPEAT correcto }
+0075   contador := 0;
+0076   repeat
+0077     begin
+0078       contador := contador + 1;
+0079       writeln('Contador: ', contador);
+0080     end;
+0081   until contador >= 5;
+0082   
+0083   { REPEAT con error de tabulación }
+0084   j := 10;
+0085   repeat
+0086    begin
+0087     j := j - 1;
+0088     writeln('j = ', j);
+0089    end;
+0090   until j <= 0;
+0091   
+0092   { REPEAT sin punto y coma }
+0093   i := 0;
+0094   repeat
+0095     begin
+0096       i := i + 2;
+0097       writeln('i = ', i);
+0098     end
+0099   until i > 10
+0100   
+0101   { Prueba de estructuras anidadas }
+0102   writeln('Iniciando pruebas de estructuras anidadas:');
+0103   
+0104   { FOR con IF anidado }
+0105   for i := 1 to 3 do
+0106   begin
+0107     if i mod 2 = 0 then
+0108     begin
+0109       writeln('i es par: ', i);
+0110     end
+0111     else
+0112     begin
+0113       writeln('i es impar: ', i);
+0114     end;
+0115   end;
+0116   
+0117   { REPEAT con FOR anidado }
+0118   contador := 0;
+0119   repeat
+0120     begin
+0121       contador := contador + 1;
+0122       for j := 1 to contador do
+0123       begin
+0124         write(j, ' ');
+0125       end;
+0126       writeln;
+0127     end;
+0128   until contador >= 3;
+0129   
+0130   writeln('Fin de las pruebas');
+0131 end.
+0132 
+============== ERRORES ENCONTRADOS ==============
+Error 500. Línea 0004. Declaración de constante inválida. Se espera: const <identificador> = <valor>;
+Error 502. Línea 0004. La declaración de constante debe finalizar con punto y coma
+Error 501. Línea 0004. La declaración de constante debe incluir el signo igual (=)
+Error 310. Línea 0008. La declaración de variable debe finalizar con ';'
+Error 801. Línea 0016. No debe haber espacios después de { o antes de }
+Error 801. Línea 0019. No debe haber espacios después de { o antes de }
+Error 350. Línea 0020. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0020. Variable 'MAX_VALOR' usada pero no declarada en la sección var
+Error 902. Línea 0020. La variable 'i' no ha sido declarada en el bucle for
+Error 904. Línea 0020. El valor final 'MAX_VALOR' no está declarado
+Error 908. Línea 0021. La línea 'begin' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 705. Línea 0022. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0022. Variable 'i' usada pero no declarada en la sección var
+Error 908. Línea 0022. La sentencia debe tener una tabulación de 4 espacios respecto a la posición del begin
+Error 908. Línea 0023. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 801. Línea 0025. No debe haber espacios después de { o antes de }
+Error 350. Línea 0026. Variable 'j' usada pero no declarada en la sección var
+Error 902. Línea 0026. La variable 'j' no ha sido declarada en el bucle for
+Error 908. Línea 0027. La línea 'begin' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 908. Línea 0028. La sentencia debe tener una tabulación de 4 espacios respecto a la posición del begin
+Error 908. Línea 0029. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 801. Línea 0031. No debe haber espacios después de { o antes de }
+Error 350. Línea 0032. Variable 'contador' usada pero no declarada en la sección var
+Error 901. Línea 0032. Falta la palabra 'to' en la declaración del for
+Error 801. Línea 0036. No debe haber espacios después de { o antes de }
+Error 801. Línea 0039. No debe haber espacios después de { o antes de }
+Error 350. Línea 0040. Variable 'i' usada pero no declarada en la sección var
+Error 313. Línea 0041. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0042. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0043. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 317. Línea 0043. El 'end' del if no debe llevar punto y coma
+Error 801. Línea 0045. No debe haber espacios después de { o antes de }
+Error 350. Línea 0046. Variable 'j' usada pero no declarada en la sección var
+Error 313. Línea 0047. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0048. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0049. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 318. Línea 0051. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 323. Línea 0052. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 321. Línea 0053. La línea 'end;' del else debe tener la misma tabulación que el begin
+Error 801. Línea 0055. No debe haber espacios después de { o antes de }
+Error 350. Línea 0056. Variable 'opcion' usada pero no declarada en la sección var
+Error 313. Línea 0057. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0058. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0059. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 317. Línea 0059. El 'end' del if no debe llevar punto y coma
+Error 801. Línea 0061. No debe haber espacios después de { o antes de }
+Error 350. Línea 0062. Variable 'opcion' usada pero no declarada en la sección var
+Error 313. Línea 0063. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0064. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0065. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 324. Línea 0066. El 'else' debe tener la misma tabulación que el 'if'
+Error 318. Línea 0067. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 323. Línea 0068. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 321. Línea 0069. La línea 'end;' del else debe tener la misma tabulación que el begin
+Error 801. Línea 0071. No debe haber espacios después de { o antes de }
+Error 801. Línea 0074. No debe haber espacios después de { o antes de }
+Error 350. Línea 0075. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0078. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0078. Variable 'contador' usada pero no declarada en la sección var
+Error 705. Línea 0079. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0079. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0081. Variable 'contador' usada pero no declarada en la sección var
+Error 801. Línea 0083. No debe haber espacios después de { o antes de }
+Error 350. Línea 0084. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0087. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0087. Variable 'j' usada pero no declarada en la sección var
+Error 705. Línea 0088. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0088. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0090. Variable 'j' usada pero no declarada en la sección var
+Error 801. Línea 0092. No debe haber espacios después de { o antes de }
+Error 350. Línea 0093. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0096. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0096. Variable 'i' usada pero no declarada en la sección var
+Error 705. Línea 0097. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0097. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0099. Variable 'i' usada pero no declarada en la sección var
+Error 801. Línea 0101. No debe haber espacios después de { o antes de }
+Error 801. Línea 0104. No debe haber espacios después de { o antes de }
+Error 350. Línea 0105. Variable 'i' usada pero no declarada en la sección var
+Error 999. Línea 0105. No se puede procesar una sección del archivo porque está mal formada
+Error 902. Línea 0105. La variable 'i' no ha sido declarada en el bucle for
+Error 908. Línea 0106. La línea 'begin' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 350. Línea 0107. Variable 'i' usada pero no declarada en la sección var
+Error 909. Línea 0107. La sentencia dentro del bucle for debe terminar con punto y coma
+Error 908. Línea 0107. La sentencia debe tener una tabulación de 4 espacios respecto a la posición del begin
+Error 313. Línea 0108. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 705. Línea 0109. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0109. Variable 'i' usada pero no declarada en la sección var
+Error 323. Línea 0109. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 909. Línea 0110. La línea 'end' debe terminar con punto y coma
+Error 908. Línea 0110. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 316. Línea 0110. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 318. Línea 0112. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 705. Línea 0113. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0113. Variable 'i' usada pero no declarada en la sección var
+Error 323. Línea 0113. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 321. Línea 0114. La línea 'end;' del else debe tener la misma tabulación que el begin
+Error 801. Línea 0117. No debe haber espacios después de { o antes de }
+Error 350. Línea 0118. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0121. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0121. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0122. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0122. Variable 'contador' usada pero no declarada en la sección var
+Error 902. Línea 0122. La variable 'j' no ha sido declarada en el bucle for
+Error 904. Línea 0122. El valor final 'contador' no está declarado
+Error 908. Línea 0123. La línea 'begin' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 705. Línea 0124. Variable 'j' usada pero no declarada en la sección var
+Error 350. Línea 0124. Variable 'j' usada pero no declarada en la sección var
+Error 908. Línea 0124. La sentencia debe tener una tabulación de 4 espacios respecto a la posición del begin
+Error 908. Línea 0125. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 700. Línea 0126. La sentencia write/writeln debe llevar paréntesis de apertura y cierre
+Error 350. Línea 0128. Variable 'contador' usada pero no declarada en la sección var

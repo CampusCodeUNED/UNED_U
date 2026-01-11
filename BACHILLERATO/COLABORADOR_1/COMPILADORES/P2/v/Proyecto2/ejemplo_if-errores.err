@@ -1,0 +1,95 @@
+0001 program ejemplo_if;
+0002 
+0003 uses crt;
+0004 
+0005 var
+0006   numero : integer;
+0007   
+0008 begin
+0009   numero := 10;
+0010   
+0011   // Estructura IF-THEN correcta sin ELSE
+0012   if numero > 5 then
+0013     begin
+0014       writeln('El numero es mayor que 5');
+0015       writeln('Esto es un bloque IF correcto');
+0016     end
+0017     
+0018   // Estructura IF-THEN-ELSE correcta
+0019   if numero < 20 then
+0020     begin
+0021       writeln('El numero es menor que 20');
+0022       numero := numero + 5;
+0023     end
+0024   else
+0025     begin
+0026       writeln('El numero es mayor o igual que 20');
+0027       numero := numero - 5;
+0028     end;
+0029     
+0030   // Estructura IF-THEN con errores de tabulación
+0031   if numero = 15 then
+0032    begin
+0033      writeln('El numero es igual a 15')
+0034       numero := 0;
+0035    end
+0036     
+0037   // Estructura IF-THEN-ELSE con errores de puntuación
+0038   if numero = 0 then
+0039     begin
+0040       writeln('El numero es cero');
+0041     end
+0042   else
+0043     begin
+0044       writeln('El numero no es cero')
+0045     end;
+0046     
+0047   // Estructura IF-THEN sin sentencias (bloque vacío)
+0048   if numero < 0 then
+0049     begin
+0050     end
+0051     
+0052   writeln('Programa finalizado');
+0053 end.
+============== ERRORES ENCONTRADOS ==============
+Error 310. Línea 0005. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0009. Variable 'numero' usada pero no declarada en la sección var
+Error 801. Línea 0011. No debe haber espacio después de //
+Error 350. Línea 0012. Variable 'numero' usada pero no declarada en la sección var
+Error 313. Línea 0013. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0014. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0016. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 801. Línea 0018. No debe haber espacio después de //
+Error 350. Línea 0019. Variable 'numero' usada pero no declarada en la sección var
+Error 313. Línea 0020. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0021. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 350. Línea 0022. Variable 'numero' usada pero no declarada en la sección var
+Error 350. Línea 0022. Variable 'numero' usada pero no declarada en la sección var
+Error 316. Línea 0023. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 318. Línea 0025. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 323. Línea 0026. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 350. Línea 0027. Variable 'numero' usada pero no declarada en la sección var
+Error 350. Línea 0027. Variable 'numero' usada pero no declarada en la sección var
+Error 321. Línea 0028. La línea 'end;' del else debe tener la misma tabulación que el begin
+Error 801. Línea 0030. No debe haber espacio después de //
+Error 350. Línea 0031. Variable 'numero' usada pero no declarada en la sección var
+Error 313. Línea 0032. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 325. Línea 0033. La sentencia dentro del bloque if debe terminar con punto y coma
+Error 323. Línea 0033. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 350. Línea 0034. Variable 'numero' usada pero no declarada en la sección var
+Error 316. Línea 0035. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 801. Línea 0037. No debe haber espacio después de //
+Error 350. Línea 0038. Variable 'numero' usada pero no declarada en la sección var
+Error 313. Línea 0039. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 323. Línea 0040. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0041. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 318. Línea 0043. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 325. Línea 0044. La sentencia dentro del bloque else debe terminar con punto y coma
+Error 323. Línea 0044. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 321. Línea 0045. La línea 'end;' del else debe tener la misma tabulación que el begin
+Error 801. Línea 0047. No debe haber espacio después de //
+Error 350. Línea 0048. Variable 'numero' usada pero no declarada en la sección var
+Error 313. Línea 0049. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 314. Línea 0049. El bloque if debe contener al menos una línea de código
+Error 316. Línea 0050. La línea 'end;' debe tener la misma tabulación que 'begin'
+Error 999. Línea 0053. La línea 'end' debe tener la misma tabulación que 'if' (esperado: 2 espacios, encontrado: 0)

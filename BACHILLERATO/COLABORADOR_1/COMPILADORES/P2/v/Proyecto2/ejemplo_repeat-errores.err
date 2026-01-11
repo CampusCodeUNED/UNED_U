@@ -1,0 +1,57 @@
+0001 program ejemplo_repeat;
+0002 
+0003 uses crt;
+0004 
+0005 var
+0006   contador : integer;
+0007   
+0008 begin
+0009   contador := 0;
+0010   
+0011   // Estructura REPEAT correcta 
+0012   repeat
+0013     begin
+0014       contador := contador + 1;
+0015       writeln('Contador: ', contador);
+0016     end;
+0017   until contador >= 5;
+0018   
+0019   // Estructura REPEAT con errores de tabulación 
+0020   repeat
+0021    begin
+0022     contador := contador - 1;
+0023     writeln('Contador: ', contador);
+0024    end;
+0025   until contador <= 0;
+0026   
+0027   // Estructura REPEAT con errores de punto y coma
+0028   repeat
+0029     begin
+0030       contador := 10;
+0031       writeln('Valor final: ', contador);
+0032     end
+0033   until contador = 10;
+0034   
+0035   writeln('Programa finalizado.');
+0036 end.
+============== ERRORES ENCONTRADOS ==============
+Error 310. Línea 0005. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0009. Variable 'contador' usada pero no declarada en la sección var
+Error 801. Línea 0011. No debe haber espacio después de //
+Error 350. Línea 0014. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0014. Variable 'contador' usada pero no declarada en la sección var
+Error 705. Línea 0015. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0015. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0017. Variable 'contador' usada pero no declarada en la sección var
+Error 801. Línea 0019. No debe haber espacio después de //
+Error 350. Línea 0022. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0022. Variable 'contador' usada pero no declarada en la sección var
+Error 705. Línea 0023. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0023. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0025. Variable 'contador' usada pero no declarada en la sección var
+Error 801. Línea 0027. No debe haber espacio después de //
+Error 350. Línea 0030. Variable 'contador' usada pero no declarada en la sección var
+Error 705. Línea 0031. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0031. Variable 'contador' usada pero no declarada en la sección var
+Error 350. Línea 0033. Variable 'contador' usada pero no declarada en la sección var
+Error 999. Línea 0105. No se puede procesar una sección del archivo porque está mal formada

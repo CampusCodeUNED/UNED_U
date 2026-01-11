@@ -1,0 +1,38 @@
+0001 program test_token;
+0002 
+0003 var
+0004   x : integer;
+0005   
+0006 begin
+0007   x := 5;
+0008   
+0009   { IF sin THEN - debe dar Error 911 }
+0010   if x > 0 
+0011     writeln('Positivo');
+0012   
+0013   { FOR sin espacios en := - debe dar Error 900 }
+0014   for i:=1 to 10 do
+0015     writeln('Iteracion');
+0016     
+0017   { REPEAT sin UNTIL - debe dar Error 922 }
+0018   repeat
+0019     writeln('Repetir');
+0020   
+0021 end.
+0022 
+============== ERRORES ENCONTRADOS ==============
+Error 450. Línea 0002. Después de program debe venir la palabra uses
+Error 310. Línea 0003. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0007. Variable 'x' usada pero no declarada en la sección var
+Error 801. Línea 0009. No debe haber espacios después de { o antes de }
+Error 350. Línea 0010. Variable 'x' usada pero no declarada en la sección var
+Error 911. Línea 0010. Falta THEN en la estructura IF
+Error 999. Línea 0010. Sintaxis incorrecta en la declaración del if
+Error 801. Línea 0013. No debe haber espacios después de { o antes de }
+Error 350. Línea 0014. Variable 'i' usada pero no declarada en la sección var
+Error 900. Línea 0014. Debe haber un espacio antes y después de ':='
+Error 902. Línea 0014. La variable 'i' no ha sido declarada en el bucle for
+Error 905. Línea 0014. Después de 'do' debe venir 'begin' en la siguiente línea
+Error 801. Línea 0017. No debe haber espacios después de { o antes de }
+Error 922. Línea 0018. Falta UNTIL para cerrar REPEAT
+Error 999. Línea 0105. No se puede procesar una sección del archivo porque está mal formada

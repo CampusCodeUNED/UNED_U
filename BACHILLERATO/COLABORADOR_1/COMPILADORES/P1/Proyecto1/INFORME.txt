@@ -1,0 +1,36 @@
+=====================================================
+INFORME DE PROYECTO: ANALIZADOR DE CÓDIGO PASCAL
+=====================================================
+ESTUDIANTE: Francisco Campos Sandi
+CURSO: Compiladores
+-----------------------------------------------------
+1. DESCRIPCIÓN DEL PROYECTO
+-----------------------------------------------------
+Este proyecto consiste en un analizador de código Pascal que verifica la estructura y sintaxis básica de programas Pascal. El analizador identifica errores comunes y los reporta en un archivo de salida con el formato "<nombre>-errores.err", donde los errores se muestran directamente debajo de la línea donde ocurren.
+-----------------------------------------------------
+2. FUNCIONALIDADES IMPLEMENTADAS
+-----------------------------------------------------
+- Validación del encabezado del programa (program, uses)
+- Validación de la estructura begin-end
+- Análisis de declaraciones de variables (var)
+- Análisis de declaraciones de constantes (const)
+- Validación de comentarios (formatos //, {}, (* *))
+- Validación de sentencias write/writeln
+- Verificación de uso de variables no declaradas
+- Verificación del orden estructural del programa
+-----------------------------------------------------
+3. PASOS PARA EJECUTAR EL PROGRAMA
+-----------------------------------------------------
+El programa se puede ejecutar de dos formas:
+
+A) Usando el archivo JAR:
+   1. Abra una terminal o línea de comandos
+   2. Navegue hasta el directorio donde se encuentra el archivo JAR
+   3. Ejecute el comando:
+      java -jar Proyecto1.jar <archivo.pas>
+   4. Ejemplo:
+      java -jar Proyecto1.jar calendario.pas
+
+
+NOTA: El archivo .pas debe estar en el mismo directorio desde donde se ejecuta el programa.
+

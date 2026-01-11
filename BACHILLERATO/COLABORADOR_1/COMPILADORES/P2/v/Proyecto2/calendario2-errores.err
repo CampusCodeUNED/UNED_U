@@ -1,0 +1,320 @@
+0001 program calendari2o2;
+0002 { Este archivo tiene errores intencionales para probar el analizador }
+0003 uses crt, dos;
+0004 
+0005 var meses : array[0..11] of integer;    { Error: var antes de const }
+0006 var tecla : integer                      { Error: falta punto y coma }
+0007 var i : integer;
+0008 var dia : integer;
+0009 var modulo : integer;
+0010 var day : word;
+0011 var year : word;
+0012 var mes : word;
+0013 var dayofweek : word;
+0014 
+0015 const borde = #205#205#205#205#205#205#205#205#205;    { Error: const después de var }
+0016 const months       : array[0..11] of integer = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+0017 const year_regular : array[0..11] of integer = ( 0,  3,  3,  6,  1,  4,  6,  2,  5,  0,  3,  5);
+0018 const year_bisiesto : array[0..11] of integer = ( 0,  3,  4,  0,  2,  5,  0,  3,  6,  1,  4,  6);
+0019 const nombres      : array[0..11] of string  = (
+0020     '  Enero   ', ' Febrero  ', '  Marzo   ', '  Abril   ',
+0021     '   Mayo   ', '  Junio   ', '  Julio   ', '  Agosto  ',
+0022     'Septiembre', ' Octubre  ', 'Noviembre ', 'Diciembre ');
+0023 
+0024 begin
+0025 {inicio del programa sin espaciado correcto}
+0026     for i:=0 to 11 do     { Error: sintaxis incorrecta }
+0027        begin              { Error: tabulación incorrecta }
+0028             meses[i] := months[i];
+0029         end;              { Error: tabulación no coincide con begin }
+0030     getdate (year, mes , day, dayofweek);
+0031     dec (mes);
+0032     
+0033     { Estructura repeat con error }
+0034     repeat               { Error: falta begin después del repeat }
+0035         if (((year mod 4) = 0) and ((year mod 100) <> 0) or ((year mod 400) = 0) then     { Error: paréntesis desbalanceados }
+0036            begin         { Error: tabulación incorrecta }
+0037                 meses[1] := 29;
+0038                 modulo := year_bisiesto[mes];
+0039             end
+0040          else           { Error: tabulación incorrecta }
+0041           begin        { Error: tabulación incorrecta }
+0042                 meses[1] := 28;
+0043                 modulo := year_regular[mes];
+0044            end;          { Error: tabulación no coincide con begin }
+0045         dia := 1 - ((year - 1) mod 7 + ((year - 1) div 4 - (3 * ((year - 1) div 100 + 1)) div 4) mod 7 + modulo + 1) mod 7;
+0046         clrscr;
+0047         writeln ('          '#17, nombres[mes], #16'                       '#30, year, #31);    { Error: cadena no válida }
+0048         writeln (#201, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #187);
+0049         write   (#186" Domingo "#186"  Lunes  "#186" Martes  "#186"Mi'#130'rcoles"#186" Jueves  "#186" Viernes ");   { Error: mezcla de comillas }
+0050         writeln (#186" S'#160'bado  "#186);
+0051         writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185);
+0052         
+0053         { For anidado con errores }
+0054         while dia <= meses[mes] do
+0055             begin
+0056                 for i:=0 to 6 do     { Error: sintaxis incorrecta }
+0057                  begin              { Error: tabulación incorrecta }
+0058                         if (dia<1) or (dia>meses[mes]) then
+0059                             begin
+0060                                 write (#186"         ")   { Error: falta punto y coma }
+0061                             end	
+0062                         else
+0063                            begin
+0064                                 write (#186"   ", dia:2, "    ");    { Error: comillas incorrectas }
+0065                             end;	
+0066                         inc (dia);
+0067                   end;              { Error: tabulación no coincide con begin }
+0068                 writeln (#186);
+0069                 
+0070                 { If con errores }
+0071                 if dia<=meses[mes] then
+0072                    begin            { Error: tabulación incorrecta }
+0073                         writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185)
+0074                     end	           { Error: falta punto y coma }
+0075                else                { Error: tabulación incorrecta }
+0076                     begin          { Error: tabulación incorrecta }
+0077                         writeln (#200, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #188);
+0078                     end; 
+0079             end;
+0080             
+0081         { Mensajes con errores de comillas }
+0082         writeln ("Presione '#27' y '#26' para cambiar de mes.");    { Error: mezcla de comillas }
+0083         writeln ('Presione '#24' y '#25' para cambiar de a'#164'o.');
+0084         writeln ("Presione ESC para salir.");                       { Error: comillas incorrectas }
+0085         
+0086         { Repeat anidado con errores }
+0087         repeat
+0088            begin                    { Error: tabulación incorrecta }
+0089                 tecla := ord (readkey);
+0090             end;
+0091         until (tecla=0) or (tecla=27);
+0092         
+0093         { If con errores múltiples }
+0094         if tecla = 0 then
+0095            begin                     { Error: tabulación incorrecta }
+0096                 case ord (readkey) of
+0097                     72: inc (year);
+0098                     80: dec (year);
+0099                     77:
+0100                     if mes<11 then   { Error: indentación incorrecta del if anidado }
+0101                        begin         { Error: tabulación incorrecta }
+0102                             inc (mes);
+0103                         end	        { Error: tabulación incorrecta }
+0104                     else             { Error: tabulación incorrecta }
+0105                        begin         { Error: tabulación incorrecta }
+0106                             inc (year);
+0107                             mes := 0;
+0108                         end;
+0109                     75:
+0110                         if mes <> 0 then
+0111                             begin
+0112                                 dec (mes);
+0113                             end
+0114                         else
+0115                            begin     { Error: tabulación incorrecta }
+0116                                 dec (year);
+0117                                 mes := 11;
+0118                             end;
+0119                 end;
+0120           end;	                     { Error: tabulación incorrecta }
+0121     end;                            { Error: no corresponde con ningún begin }
+0122     until tecla = 27;
+0123     //comentario al final     { Error: comentario con estilo incorrecto }
+0124 end. { Error: comentario después del end. }
+============== ERRORES ENCONTRADOS ==============
+Error 420. Línea 0001. El nombre del programa 'calendari2o2' no coincide con el nombre del archivo 'calendario2'
+Error 801. Línea 0002. No debe haber espacios después de { o antes de }
+Error 340. Línea 0005. Las variables deben declararse después de const
+Error 320. Línea 0005. Tipo no permitido 'array[0..11] of integer'. Tipos válidos: integer, string, word
+Error 804. Línea 0005. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0005. No debe haber espacios después de { o antes de }
+Error 340. Línea 0006. Las variables deben declararse después de const
+Error 310. Línea 0006. La declaración de variable debe finalizar con ';'
+Error 801. Línea 0006. No debe haber espacios después de { o antes de }
+Error 340. Línea 0007. Las variables deben declararse después de const
+Error 340. Línea 0008. Las variables deben declararse después de const
+Error 340. Línea 0009. Las variables deben declararse después de const
+Error 340. Línea 0010. Las variables deben declararse después de const
+Error 340. Línea 0011. Las variables deben declararse después de const
+Error 340. Línea 0012. Las variables deben declararse después de const
+Error 340. Línea 0013. Las variables deben declararse después de const
+Error 504. Línea 0015. Las constantes deben declararse antes de var
+Error 500. Línea 0015. Declaración de constante inválida. Se espera: const <identificador> = <valor>;
+Error 502. Línea 0015. La declaración de constante debe finalizar con punto y coma
+Error 804. Línea 0015. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0015. No debe haber espacios después de { o antes de }
+Error 504. Línea 0016. Las constantes deben declararse antes de var
+Error 504. Línea 0017. Las constantes deben declararse antes de var
+Error 504. Línea 0018. Las constantes deben declararse antes de var
+Error 504. Línea 0019. Las constantes deben declararse antes de var
+Error 801. Línea 0026. No debe haber espacios después de { o antes de }
+Error 900. Línea 0026. Sintaxis incorrecta en la declaración del for
+Error 801. Línea 0027. No debe haber espacios después de { o antes de }
+Error 804. Línea 0029. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0029. No debe haber espacios después de { o antes de }
+Error 801. Línea 0033. No debe haber espacios después de { o antes de }
+Error 801. Línea 0034. No debe haber espacios después de { o antes de }
+Error 801. Línea 0035. No debe haber espacios después de { o antes de }
+Error 801. Línea 0036. No debe haber espacios después de { o antes de }
+Error 801. Línea 0040. No debe haber espacios después de { o antes de }
+Error 801. Línea 0041. No debe haber espacios después de { o antes de }
+Error 804. Línea 0044. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0044. No debe haber espacios después de { o antes de }
+Error 804. Línea 0047. No deben aparecer comentarios después de punto y coma
+Error 703. Línea 0047. Cadena no válida: si inicia con comillas debe cerrar comillas (use '' para comilla literal)
+Error 801. Línea 0047. No debe haber espacios después de { o antes de }
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0048. Variable 'borde' usada pero no declarada en la sección var
+Error 804. Línea 0049. No deben aparecer comentarios después de punto y coma
+Error 704. Línea 0049. Texto literal en write/writeln debe ir entre comillas simples
+Error 350. Línea 0049. Variable 'Domingo' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'Lunes' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'Martes' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'Mi' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'rcoles' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'Jueves' usada pero no declarada en la sección var
+Error 350. Línea 0049. Variable 'Viernes' usada pero no declarada en la sección var
+Error 801. Línea 0049. No debe haber espacios después de { o antes de }
+Error 704. Línea 0050. Texto literal en write/writeln debe ir entre comillas simples
+Error 350. Línea 0050. Variable 'S' usada pero no declarada en la sección var
+Error 350. Línea 0050. Variable 'bado' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0051. Variable 'borde' usada pero no declarada en la sección var
+Error 801. Línea 0053. No debe haber espacios después de { o antes de }
+Error 801. Línea 0056. No debe haber espacios después de { o antes de }
+Error 900. Línea 0056. Sintaxis incorrecta en la declaración del for
+Error 801. Línea 0057. No debe haber espacios después de { o antes de }
+Error 704. Línea 0060. Texto literal en write/writeln debe ir entre comillas simples
+Error 801. Línea 0060. No debe haber espacios después de { o antes de }
+Error 325. Línea 0060. La sentencia debe terminar con punto y coma
+Error 318. Línea 0063. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 804. Línea 0064. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0064. No debe haber espacios después de { o antes de }
+Error 325. Línea 0064. La sentencia dentro del bloque else debe terminar con punto y coma
+Error 804. Línea 0067. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0067. No debe haber espacios después de { o antes de }
+Error 801. Línea 0070. No debe haber espacios después de { o antes de }
+Error 801. Línea 0072. No debe haber espacios después de { o antes de }
+Error 313. Línea 0072. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 313. Línea 0072. La línea 'begin' no debe tener contenido adicional
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 705. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0073. Variable 'borde' usada pero no declarada en la sección var
+Error 325. Línea 0073. La sentencia debe terminar con punto y coma
+Error 801. Línea 0074. No debe haber espacios después de { o antes de }
+Error 325. Línea 0074. La sentencia debe terminar con punto y coma
+Error 323. Línea 0074. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0075. No debe haber espacios después de { o antes de }
+Error 325. Línea 0075. La sentencia debe terminar con punto y coma
+Error 323. Línea 0075. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0076. No debe haber espacios después de { o antes de }
+Error 325. Línea 0076. La sentencia debe terminar con punto y coma
+Error 323. Línea 0076. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 350. Línea 0077. Variable 'borde' usada pero no declarada en la sección var
+Error 317. Línea 0078. El 'end' del if no debe llevar punto y coma
+Error 801. Línea 0081. No debe haber espacios después de { o antes de }
+Error 804. Línea 0082. No deben aparecer comentarios después de punto y coma
+Error 704. Línea 0082. Texto literal en write/writeln debe ir entre comillas simples
+Error 350. Línea 0082. Variable 'Presione' usada pero no declarada en la sección var
+Error 350. Línea 0082. Variable 'y' usada pero no declarada en la sección var
+Error 350. Línea 0082. Variable 'para' usada pero no declarada en la sección var
+Error 350. Línea 0082. Variable 'cambiar' usada pero no declarada en la sección var
+Error 350. Línea 0082. Variable 'de' usada pero no declarada en la sección var
+Error 801. Línea 0082. No debe haber espacios después de { o antes de }
+Error 703. Línea 0083. Cadena no válida: si inicia con comillas debe cerrar comillas (use '' para comilla literal)
+Error 804. Línea 0084. No deben aparecer comentarios después de punto y coma
+Error 704. Línea 0084. Texto literal en write/writeln debe ir entre comillas simples
+Error 350. Línea 0084. Variable 'Presione' usada pero no declarada en la sección var
+Error 350. Línea 0084. Variable 'ESC' usada pero no declarada en la sección var
+Error 350. Línea 0084. Variable 'para' usada pero no declarada en la sección var
+Error 350. Línea 0084. Variable 'salir' usada pero no declarada en la sección var
+Error 801. Línea 0084. No debe haber espacios después de { o antes de }
+Error 801. Línea 0086. No debe haber espacios después de { o antes de }
+Error 801. Línea 0088. No debe haber espacios después de { o antes de }
+Error 350. Línea 0089. Variable 'tecla' usada pero no declarada en la sección var
+Error 350. Línea 0091. Variable 'tecla' usada pero no declarada en la sección var
+Error 350. Línea 0091. Variable 'tecla' usada pero no declarada en la sección var
+Error 801. Línea 0093. No debe haber espacios después de { o antes de }
+Error 350. Línea 0094. Variable 'tecla' usada pero no declarada en la sección var
+Error 801. Línea 0095. No debe haber espacios después de { o antes de }
+Error 313. Línea 0095. La línea 'begin' debe tener una tabulación de 4 espacios respecto al 'if'
+Error 313. Línea 0095. La línea 'begin' no debe tener contenido adicional
+Error 325. Línea 0096. La sentencia debe terminar con punto y coma
+Error 323. Línea 0097. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 323. Línea 0098. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 325. Línea 0099. La sentencia debe terminar con punto y coma
+Error 323. Línea 0099. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0100. No debe haber espacios después de { o antes de }
+Error 325. Línea 0100. La sentencia debe terminar con punto y coma
+Error 323. Línea 0100. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0101. No debe haber espacios después de { o antes de }
+Error 325. Línea 0101. La sentencia debe terminar con punto y coma
+Error 323. Línea 0101. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 323. Línea 0102. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0103. No debe haber espacios después de { o antes de }
+Error 325. Línea 0103. La sentencia debe terminar con punto y coma
+Error 323. Línea 0103. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0104. No debe haber espacios después de { o antes de }
+Error 325. Línea 0104. La sentencia debe terminar con punto y coma
+Error 323. Línea 0104. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 801. Línea 0105. No debe haber espacios después de { o antes de }
+Error 325. Línea 0105. La sentencia debe terminar con punto y coma
+Error 323. Línea 0105. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 323. Línea 0106. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 323. Línea 0107. La sentencia debe tener una tabulación de 4 espacios con respecto al begin
+Error 316. Línea 0108. La línea 'end' debe tener la misma tabulación que 'begin'
+Error 317. Línea 0108. El 'end' del if no debe llevar punto y coma
+Error 999. Línea 0112. No se puede procesar una sección del archivo porque está mal formada
+Error 801. Línea 0115. No debe haber espacios después de { o antes de }
+Error 318. Línea 0115. La línea 'begin' del else debe tener la misma tabulación que el begin del if
+Error 318. Línea 0115. La línea 'begin' no debe tener contenido adicional
+Error 804. Línea 0120. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0120. No debe haber espacios después de { o antes de }
+Error 804. Línea 0121. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0121. No debe haber espacios después de { o antes de }
+Error 350. Línea 0122. Variable 'tecla' usada pero no declarada en la sección var
+Error 801. Línea 0123. No debe haber espacios después de { o antes de }
+Error 611. Línea 0124. El fin del programa debe ser exactamente 'end.' (con punto)
+Error 801. Línea 0124. No debe haber espacios después de { o antes de }

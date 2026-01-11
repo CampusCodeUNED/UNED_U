@@ -1,0 +1,16 @@
+0001 program prueba_for;
+0002 var
+0003     i: integer;
+0004 begin
+0005     for i := 1 to 3 do
+0006         begin
+0007             writeln('Hola');
+0008         end;
+0009 end.
+0010 
+============== ERRORES ENCONTRADOS ==============
+Error 420. Línea 0001. El nombre del programa 'prueba_for' no coincide con el nombre del archivo 'for_good'
+Error 450. Línea 0002. Después de program debe venir la palabra uses
+Error 310. Línea 0002. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0005. Variable 'i' usada pero no declarada en la sección var
+Error 902. Línea 0005. La variable 'i' no ha sido declarada en el bucle for

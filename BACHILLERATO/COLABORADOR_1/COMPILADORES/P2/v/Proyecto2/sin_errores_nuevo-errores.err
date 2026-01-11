@@ -1,0 +1,35 @@
+0001 program sin_errores_nuevo;
+0002 uses crt;
+0003 
+0004 const MAX = 10;
+0005 const MENSAJE = 'Programa sin errores';
+0006 
+0007 var i : integer;
+0008 var suma : integer;
+0009 var resultado : integer;
+0010 
+0011 begin
+0012     i := 1;
+0013     suma := 0;
+0014     resultado := 0;
+0015     
+0016     while i <= MAX do
+0017     begin
+0018         suma := suma + i;
+0019         i := i + 1;
+0020     end;
+0021     
+0022     resultado := suma * 2;
+0023     
+0024     if resultado > 100 then
+0025         begin
+0026             writeln('El resultado es mayor que 100: ', resultado);
+0027         end
+0028     else
+0029         begin
+0030             writeln('El resultado es: ', resultado);
+0031         end;
+0032     
+0033     writeln('Presione una tecla para continuar...');
+0034     readln;
+0035 end.

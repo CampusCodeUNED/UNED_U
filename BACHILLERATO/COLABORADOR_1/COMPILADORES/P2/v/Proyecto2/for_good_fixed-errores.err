@@ -1,0 +1,21 @@
+0001 program for_good_fixed;
+0002 uses crt;
+0003 
+0004 var
+0005     i: integer;
+0006 
+0007 begin
+0008     i := 0;
+0009     for i := 1 to 5 do
+0010         begin
+0011             writeln('Iter ', i);
+0012         end;
+0013 end.
+0014 
+============== ERRORES ENCONTRADOS ==============
+Error 310. Línea 0004. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0008. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0009. Variable 'i' usada pero no declarada en la sección var
+Error 902. Línea 0009. La variable 'i' no ha sido declarada en el bucle for
+Error 705. Línea 0011. Variable 'i' usada pero no declarada en la sección var
+Error 350. Línea 0011. Variable 'i' usada pero no declarada en la sección var

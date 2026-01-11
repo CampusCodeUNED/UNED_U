@@ -1,0 +1,86 @@
+0001 program test_var_listas_y_espacios;
+0002 uses crt;
+0003 
+0004 // --- Listas correctas
+0005 var a, b, c : integer;               // OK
+0006 var nombre, apellido : string;       // OK
+0007 var x, y, z : word;                  // OK
+0008 
+0009 // --- Lista con errores
+0010 var a,,b : integer;                  // ERROR: identificador vacío (doble coma)
+0011 var sin_espacio:integer;             // ERROR: falta espacio antes y después de ':'
+0012 var sin_tipo : ;                     // ERROR: falta tipo
+0013 var tipo_malo : real;                // ERROR: tipo no permitido
+0014 var reservado, begin : integer;      // ERROR: 'begin' es reservada
+0015 
+0016 begin
+0017   writeln(a, b, c);                  // OK
+0018   writeln(nombre, ' ', apellido);    // OK
+0019   writeln(x, y, z);                  // OK
+0020 
+0021   writeln(sin_espacio);              // ERROR: no declarado
+0022   writeln(sin_tipo);                 // ERROR: no declarado
+0023   writeln(tipo_malo);                // ERROR: no declarado
+0024   writeln(begin);                    // ERROR: no declarado (además reservada)
+0025 
+0026 end.
+0027 
+============== ERRORES ENCONTRADOS ==============
+Error 420. Línea 0001. El nombre del programa 'test_var_listas_y_espacios' no coincide con el nombre del archivo 'demo'
+Error 801. Línea 0004. No debe haber espacio después de //
+Error 300. Línea 0005. Identificador inválido 'a,'. Debe iniciar con letra y solo contener letras o guiones bajos
+Error 804. Línea 0005. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0005. No debe haber espacio después de //
+Error 300. Línea 0006. Identificador inválido 'nombre,'. Debe iniciar con letra y solo contener letras o guiones bajos
+Error 804. Línea 0006. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0006. No debe haber espacio después de //
+Error 300. Línea 0007. Identificador inválido 'x,'. Debe iniciar con letra y solo contener letras o guiones bajos
+Error 804. Línea 0007. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0007. No debe haber espacio después de //
+Error 801. Línea 0009. No debe haber espacio después de //
+Error 300. Línea 0010. Identificador inválido 'a,,b'. Debe iniciar con letra y solo contener letras o guiones bajos
+Error 804. Línea 0010. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0010. No debe haber espacio después de //
+Error 330. Línea 0011. Debe haber un espacio antes y después de ':' en la declaración de variable
+Error 804. Línea 0011. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0011. No debe haber espacio después de //
+Error 320. Línea 0012. Tipo no permitido ''. Tipos válidos: integer, string, word
+Error 804. Línea 0012. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0012. No debe haber espacio después de //
+Error 320. Línea 0013. Tipo no permitido 'real'. Tipos válidos: integer, string, word
+Error 804. Línea 0013. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0013. No debe haber espacio después de //
+Error 300. Línea 0014. Identificador inválido 'reservado,'. Debe iniciar con letra y solo contener letras o guiones bajos
+Error 804. Línea 0014. No deben aparecer comentarios después de punto y coma
+Error 350. Línea 0014. Variable 'reservado' usada pero no declarada en la sección var
+Error 801. Línea 0014. No debe haber espacio después de //
+Error 804. Línea 0017. No deben aparecer comentarios después de punto y coma
+Error 705. Línea 0017. Variable 'a' usada pero no declarada en la sección var
+Error 705. Línea 0017. Variable 'b' usada pero no declarada en la sección var
+Error 705. Línea 0017. Variable 'c' usada pero no declarada en la sección var
+Error 350. Línea 0017. Variable 'a' usada pero no declarada en la sección var
+Error 350. Línea 0017. Variable 'b' usada pero no declarada en la sección var
+Error 350. Línea 0017. Variable 'c' usada pero no declarada en la sección var
+Error 801. Línea 0017. No debe haber espacio después de //
+Error 804. Línea 0018. No deben aparecer comentarios después de punto y coma
+Error 705. Línea 0018. Variable 'nombre' usada pero no declarada en la sección var
+Error 705. Línea 0018. Variable 'apellido' usada pero no declarada en la sección var
+Error 350. Línea 0018. Variable 'nombre' usada pero no declarada en la sección var
+Error 350. Línea 0018. Variable 'apellido' usada pero no declarada en la sección var
+Error 801. Línea 0018. No debe haber espacio después de //
+Error 804. Línea 0019. No deben aparecer comentarios después de punto y coma
+Error 705. Línea 0019. Variable 'x' usada pero no declarada en la sección var
+Error 705. Línea 0019. Variable 'y' usada pero no declarada en la sección var
+Error 705. Línea 0019. Variable 'z' usada pero no declarada en la sección var
+Error 350. Línea 0019. Variable 'x' usada pero no declarada en la sección var
+Error 350. Línea 0019. Variable 'y' usada pero no declarada en la sección var
+Error 350. Línea 0019. Variable 'z' usada pero no declarada en la sección var
+Error 801. Línea 0019. No debe haber espacio después de //
+Error 804. Línea 0021. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0021. No debe haber espacio después de //
+Error 804. Línea 0022. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0022. No debe haber espacio después de //
+Error 804. Línea 0023. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0023. No debe haber espacio después de //
+Error 804. Línea 0024. No deben aparecer comentarios después de punto y coma
+Error 801. Línea 0024. No debe haber espacio después de //

@@ -1,0 +1,17 @@
+0001 program prueba_for_bad;
+0002 var
+0003     i: integer;
+0004 begin
+0005     for i:=1 to do
+0006         begin
+0007             writeln('Hola')
+0008         end
+0009 end.
+0010 
+============== ERRORES ENCONTRADOS ==============
+Error 420. Línea 0001. El nombre del programa 'prueba_for_bad' no coincide con el nombre del archivo 'for_bad'
+Error 450. Línea 0002. Después de program debe venir la palabra uses
+Error 310. Línea 0002. La declaración de variable debe finalizar con ';'
+Error 350. Línea 0005. Variable 'i' usada pero no declarada en la sección var
+Error 901. Línea 0005. Falta la palabra 'to' en la declaración del for
+Error 706. Línea 0007. La sentencia write/writeln debe finalizar con ';'

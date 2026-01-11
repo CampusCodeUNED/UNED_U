@@ -1,0 +1,47 @@
+0001 program ejemplo_for;
+0002 
+0003 uses
+0004   crt;
+0005 
+0006 var
+0007   i : integer;
+0008   j : integer;
+0009   suma : integer;
+0010   
+0011 const
+0012   MAX = 10;
+0013   
+0014 begin
+0015   suma := 0;
+0016   
+0017   { Bucle for correcto }
+0018   for i := 1 to MAX do
+0019   begin
+0020     suma := suma + i;
+0021     writeln('Suma parcial: ', suma);
+0022   end;
+0023   
+0024   { Bucle for con errores }
+0025   for z := 1 to 'diez' do
+0026   begin
+0027    writeln('Este bucle tiene errores');
+0028     end;
+0029   
+0030   { Bucle for sin sentencias }
+0031   for j := 5 to 10 do
+0032   begin
+0033   end;
+0034   
+0035   writeln('Suma total: ', suma);
+0036 end.
+
+============== ERRORES ENCONTRADOS ==============
+Error 325. LÃ­nea 0019. Indentacion de BEGIN incorrecta. Se esperaban 6 espacios.
+Error 331. LÃ­nea 0020. Se esperaba BEGIN en la lÃ­nea siguiente al FOR
+Error 328. LÃ­nea 0022. Falta la sentencia dentro del FOR antes del END;
+Error 335. LÃ­nea 0025. Anidamiento de ciclos FOR no permitido
+Error 325. LÃ­nea 0026. Indentacion de BEGIN incorrecta. Se esperaban 6 espacios.
+Error 328. LÃ­nea 0028. Falta la sentencia dentro del FOR antes del END;
+Error 335. LÃ­nea 0031. Anidamiento de ciclos FOR no permitido
+Error 325. LÃ­nea 0032. Indentacion de BEGIN incorrecta. Se esperaban 6 espacios.
+Error 328. LÃ­nea 0033. Falta la sentencia dentro del FOR antes del END;

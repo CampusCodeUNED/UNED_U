@@ -1,0 +1,345 @@
+0001 program calendario;
+0002 uses crt, dos;
+0003 
+0004 const borde = #205#205#205#205#205#205#205#205#205;
+0005 const months       : array[0..11] of integer = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+0006 const year_regular : array[0..11] of integer = ( 0,  3,  3,  6,  1,  4,  6,  2,  5,  0,  3,  5);
+0007 const year_bisiesto : array[0..11] of integer = ( 0,  3,  4,  0,  2,  5,  0,  3,  6,  1,  4,  6);
+0008 const nombres      : array[0..11] of string  = (
+0009     '  Enero   ', ' Febrero  ', '  Marzo   ', '  Abril   ',
+0010     '   Mayo   ', '  Junio   ', '  Julio   ', '  Agosto  ',
+0011     'Septiembre', ' Octubre  ', 'Noviembre ', 'Diciembre ');
+0012 
+0013 var meses : array[0..11] of integer;
+0014 var tecla : integer;
+0015 var i : integer;
+0016 var dia : integer;
+0017 var modulo : integer;
+0018 var day : word;
+0019 var year : word;
+0020 var mes : word;
+0021 var dayofweek : word;
+0022 
+0023 begin
+0024 {inicio del programa}
+0025     for i:=0 to 11 do
+0026         begin
+0027             meses[i] := months[i];
+0028         end;
+0029     getdate (year, mes , day, dayofweek);
+0030     dec (mes);
+0031     repeat
+0032         begin
+0033             if (((year mod 4) = 0) and ((year mod 100) <> 0)) or ((year mod 400) = 0) then
+0034                 begin
+0035                     meses[1] := 29;
+0036                     modulo := year_bisiesto[mes];
+0037                 end
+0038             else
+0039                 begin
+0040                     meses[1] := 28;
+0041                     modulo := year_regular[mes];
+0042                 end;
+0043             dia := 1 - ((year - 1) mod 7 + ((year - 1) div 4 - (3 * ((year - 1) div 100 + 1)) div 4) mod 7 + modulo + 1) mod 7;
+0044             clrscr;
+0045             writeln ('          '#17, nombres[mes], #16'                       '#30, year, #31);
+0046             writeln (#201, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #187);
+0047             write   (#186' Domingo '#186'  Lunes  '#186' Martes  '#186'Mi'#130'rcoles'#186' Jueves  '#186' Viernes ');
+0048             writeln (#186' S'#160'bado  '#186);
+0049             writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185);
+0050             while dia <= meses[mes] do
+0051                 begin
+0052                     for i:=0 to 6 do
+0053                         begin
+0054                             if (dia<1) or (dia>meses[mes]) then
+0055                                 begin
+0056                                     write (#186'         ')
+0057                                 end	
+0058                             else
+0059                                 begin
+0060                                     write (#186'   ', dia:2, '    ');
+0061                                 end;	
+0062                             inc (dia);
+0063                         end;
+0064                     writeln (#186);
+0065                     if dia<=meses[mes] then
+0066                         begin
+0067                             writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185)
+0068                         end	
+0069                     else
+0070                         begin
+0071                             writeln (#200, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #188);
+0072                         end; 
+0073                 end;
+0074             writeln ('Presione '#27' y '#26' para cambiar de mes.');
+0075             writeln ('Presione '#24' y '#25' para cambiar de a'#164'o.');
+0076             writeln ('Presione ESC para salir.');
+0077             repeat
+0078                 begin
+0079                     tecla := ord (readkey);
+0080                 end;
+0081             until (tecla=0) or (tecla=27);
+0082             if tecla = 0 then
+0083                 begin
+0084                     case ord (readkey) of
+0085                         72: inc (year);
+0086                         80: dec (year);
+0087                         77:
+0088                         if mes<11 then
+0089                             begin
+0090                                 inc (mes);
+0091                             end	
+0092                         else
+0093                             begin
+0094                                 inc (year);
+0095                                 mes := 0;
+0096                             end;
+0097                         75:
+0098                             if mes <> 0 then
+0099                                 begin
+0100                                     dec (mes);
+0101                                 end
+0102                             else
+0103                                 begin
+0104                                     dec (year);
+0105                                     mes := 11;
+0106                                 end;
+0107                end;
+0108           end;	
+0109         end;
+0110     until tecla = 27;
+0111     //fin del programa
+0112 end. 
+0113 //hola
+============== ERRORES ENCONTRADOS ==============
+Error 300. Línea 0025. Debe haber un espacio antes y después de ':='
+Error 380. Línea 0025. Sintaxis incorrecta del for. Se espera: for variable := expresion to expresion do
+Error 380. Línea 0028. Se encontró 'end' sin una estructura de control correspondiente
+Error 2200. Línea 0032. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2200. Línea 0033. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0033. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0034. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0034. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0035. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0036. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 304. Línea 0037. La línea 'end' debe terminar con punto y coma
+Error 303. Línea 0037. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 324. Línea 0037. La línea 'end' debe terminar con punto y coma
+Error 2200. Línea 0037. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0037. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0037. La tabulación del end en la línea 37 no coincide con la del if en la línea 33
+Error 2200. Línea 0038. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0038. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0039. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0039. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0040. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0041. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0042. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0042. La tabulación del end en la línea 42 no coincide con la del repeat en la línea 31
+Error 2203. Línea 0043. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0044. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0045. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0046. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0047. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0048. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0049. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0050. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0050. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0051. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0051. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 300. Línea 0052. Debe haber un espacio antes y después de ':='
+Error 2200. Línea 0052. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0052. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0052. Sintaxis incorrecta del for. Se espera: for variable := expresion to expresion do
+Error 2200. Línea 0053. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0053. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 304. Línea 0054. La sentencia dentro del bucle for debe terminar con punto y coma
+Error 2200. Línea 0054. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0054. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0055. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0055. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 324. Línea 0056. La sentencia dentro del bucle if debe terminar con punto y coma
+Error 2200. Línea 0056. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0056. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 304. Línea 0057. La línea 'end' debe terminar con punto y coma
+Error 303. Línea 0057. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del for
+Error 324. Línea 0057. La línea 'end' debe terminar con punto y coma
+Error 2200. Línea 0057. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0057. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0057. La tabulación del end en la línea 57 no coincide con la del if en la línea 54
+Error 2200. Línea 0058. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0058. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0059. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0059. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0060. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0061. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0061. Se encontró 'end' sin una estructura de control correspondiente
+Error 2203. Línea 0062. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0063. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0063. Se encontró 'end' sin una estructura de control correspondiente
+Error 2203. Línea 0064. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0065. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0065. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0066. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0066. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 324. Línea 0067. La sentencia dentro del bucle if debe terminar con punto y coma
+Error 2200. Línea 0067. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0067. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 324. Línea 0068. La línea 'end' debe terminar con punto y coma
+Error 2200. Línea 0068. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0068. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0068. La tabulación del end en la línea 68 no coincide con la del if en la línea 65
+Error 2200. Línea 0069. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0069. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0070. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0070. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0071. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0072. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0072. Se encontró 'end' sin una estructura de control correspondiente
+Error 2203. Línea 0073. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0073. Se encontró 'end' sin una estructura de control correspondiente
+Error 2203. Línea 0074. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0075. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0076. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0077. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0077. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2200. Línea 0078. Las sentencias dentro del bucle repeat deben terminar con punto y coma
+Error 2203. Línea 0078. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0079. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 2203. Línea 0080. Las sentencias deben tener una tabulación de 4 espacios respecto al repeat
+Error 380. Línea 0080. La tabulación del end en la línea 80 no coincide con la del repeat en la línea 77
+Error 2203. Línea 0081. La línea 'until' debe tener la misma tabulación que 'repeat'
+Error 382. Línea 0081. Se encontró 'until' sin un 'repeat' correspondiente
+Error 324. Línea 0084. La sentencia dentro del bucle if debe terminar con punto y coma
+Error 324. Línea 0091. La línea 'end' debe terminar con punto y coma
+Error 323. Línea 0091. La línea 'end;' debe tener una tabulación de 4 espacios respecto a la posición del if
+Error 380. Línea 0091. La tabulación del end en la línea 91 no coincide con la del if en la línea 88
+Error 380. Línea 0096. La tabulación del end en la línea 96 no coincide con la del if en la línea 82
+Error 324. Línea 0101. La línea 'end' debe terminar con punto y coma
+Error 380. Línea 0101. La tabulación del end en la línea 101 no coincide con la del if en la línea 98
+Error 380. Línea 0106. Se encontró 'end' sin una estructura de control correspondiente
+Error 380. Línea 0107. Se encontró 'end' sin una estructura de control correspondiente
+Error 380. Línea 0108. Se encontró 'end' sin una estructura de control correspondiente
+Error 380. Línea 0109. Se encontró 'end' sin una estructura de control correspondiente
+Error 382. Línea 0110. Se encontró 'until' sin un 'repeat' correspondienteError 103. LÃ­nea 0001. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0001. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> ; <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0002. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0002. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0001. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0001. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> ; <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0002. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0002. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0004. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0004. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> = <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0005. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0005. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0006. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0006. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0007. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0007. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0008. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0008. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0013. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0013. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0014. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0014. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0015. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0015. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0016. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0016. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0017. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0017. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0018. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0018. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0019. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0019. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0020. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0020. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0021. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0021. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0025. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0025. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0028. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0029. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0029. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0030. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0030. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0033. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0033. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> ( <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0036. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0036. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0041. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0041. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0042. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0043. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0044. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0045. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0045. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0046. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0046. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0047. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0047. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0048. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0048. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0049. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0049. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0050. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0050. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Operadores <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0052. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0052. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0054. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0054. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0056. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0056. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0060. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0060. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0061. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0062. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0062. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0063. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0064. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0064. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0065. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0065. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Operadores <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0067. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0067. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0071. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0071. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0072. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0073. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0074. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0074. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0075. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0075. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0076. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0076. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0079. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0079. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0080. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0081. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0081. Posicion 3: La linea presenta un error en posicion 3 en el dato >>>  <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0082. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0082. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> = <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0084. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0084. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> ( <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0088. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0088. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Operadores <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0090. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0090. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0094. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0094. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0095. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0096. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0098. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0098. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Operadores <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0100. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0100. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0104. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ( <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0104. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> Variable <<< Se esperaba --> Numeros <--
+Error 103. LÃ­nea 0105. Posicion 2: La linea presenta un error en posicion 2 en el dato >>>  <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0106. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0107. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0108. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0109. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> ; <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0110. Posicion 2: La linea presenta un error en posicion 2 en el dato >>> Variable <<< Se esperaba --> = <--
+Error 103. LÃ­nea 0110. Posicion 3: La linea presenta un error en posicion 3 en el dato >>> = <<< Se esperaba --> Numeros <--

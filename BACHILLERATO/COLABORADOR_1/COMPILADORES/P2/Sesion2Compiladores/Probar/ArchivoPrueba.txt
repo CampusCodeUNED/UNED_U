@@ -1,0 +1,1 @@
+CICLO (var1 = 0; var1 < 10; var1 INCREMENTA 1)

@@ -1,0 +1,128 @@
+0001 program calendari2o2;
+0002 { Este archivo tiene errores intencionales para probar el analizador }
+0003 uses crt, dos;
+0004 
+0005 var meses : array[0..11] of integer;    { Error: var antes de const }
+0006 var tecla : integer                      { Error: falta punto y coma }
+0007 var i : integer;
+0008 var dia : integer;
+0009 var modulo : integer;
+0010 var day : word;
+0011 var year : word;
+0012 var mes : word;
+0013 var dayofweek : word;
+0014 
+0015 const borde = #205#205#205#205#205#205#205#205#205;    { Error: const después de var }
+0016 const months       : array[0..11] of integer = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+0017 const year_regular : array[0..11] of integer = ( 0,  3,  3,  6,  1,  4,  6,  2,  5,  0,  3,  5);
+0018 const year_bisiesto : array[0..11] of integer = ( 0,  3,  4,  0,  2,  5,  0,  3,  6,  1,  4,  6);
+0019 const nombres      : array[0..11] of string  = (
+0020     '  Enero   ', ' Febrero  ', '  Marzo   ', '  Abril   ',
+0021     '   Mayo   ', '  Junio   ', '  Julio   ', '  Agosto  ',
+0022     'Septiembre', ' Octubre  ', 'Noviembre ', 'Diciembre ');
+0023 
+0024 begin
+0025 {inicio del programa sin espaciado correcto}
+0026     for i:=0 to 11 do     { Error: sintaxis incorrecta }
+0027        begin              { Error: tabulación incorrecta }
+0028             meses[i] := months[i];
+0029         end;              { Error: tabulación no coincide con begin }
+0030     getdate (year, mes , day, dayofweek);
+0031     dec (mes);
+0032     
+0033     { Estructura repeat con error }
+0034     repeat               { Error: falta begin después del repeat }
+0035         if (((year mod 4) = 0) and ((year mod 100) <> 0) or ((year mod 400) = 0) then     { Error: paréntesis desbalanceados }
+0036            begin         { Error: tabulación incorrecta }
+0037                 meses[1] := 29;
+0038                 modulo := year_bisiesto[mes];
+0039             end
+0040          else           { Error: tabulación incorrecta }
+0041           begin        { Error: tabulación incorrecta }
+0042                 meses[1] := 28;
+0043                 modulo := year_regular[mes];
+0044            end;          { Error: tabulación no coincide con begin }
+0045         dia := 1 - ((year - 1) mod 7 + ((year - 1) div 4 - (3 * ((year - 1) div 100 + 1)) div 4) mod 7 + modulo + 1) mod 7;
+0046         clrscr;
+0047         writeln ('          '#17, nombres[mes], #16'                       '#30, year, #31);    { Error: cadena no válida }
+0048         writeln (#201, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #203, borde, #187);
+0049         write   (#186" Domingo "#186"  Lunes  "#186" Martes  "#186"Mi'#130'rcoles"#186" Jueves  "#186" Viernes ");   { Error: mezcla de comillas }
+0050         writeln (#186" S'#160'bado  "#186);
+0051         writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185);
+0052         
+0053         { For anidado con errores }
+0054         while dia <= meses[mes] do
+0055             begin
+0056                 for i:=0 to 6 do     { Error: sintaxis incorrecta }
+0057                  begin              { Error: tabulación incorrecta }
+0058                         if (dia<1) or (dia>meses[mes]) then
+0059                             begin
+0060                                 write (#186"         ")   { Error: falta punto y coma }
+0061                             end	
+0062                         else
+0063                            begin
+0064                                 write (#186"   ", dia:2, "    ");    { Error: comillas incorrectas }
+0065                             end;	
+0066                         inc (dia);
+0067                   end;              { Error: tabulación no coincide con begin }
+0068                 writeln (#186);
+0069                 
+0070                 { If con errores }
+0071                 if dia<=meses[mes] then
+0072                    begin            { Error: tabulación incorrecta }
+0073                         writeln (#204, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #206, borde, #185)
+0074                     end	           { Error: falta punto y coma }
+0075                else                { Error: tabulación incorrecta }
+0076                     begin          { Error: tabulación incorrecta }
+0077                         writeln (#200, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #202, borde, #188);
+0078                     end; 
+0079             end;
+0080             
+0081         { Mensajes con errores de comillas }
+0082         writeln ("Presione '#27' y '#26' para cambiar de mes.");    { Error: mezcla de comillas }
+0083         writeln ('Presione '#24' y '#25' para cambiar de a'#164'o.');
+0084         writeln ("Presione ESC para salir.");                       { Error: comillas incorrectas }
+0085         
+0086         { Repeat anidado con errores }
+0087         repeat
+0088            begin                    { Error: tabulación incorrecta }
+0089                 tecla := ord (readkey);
+0090             end;
+0091         until (tecla=0) or (tecla=27);
+0092         
+0093         { If con errores múltiples }
+0094         if tecla = 0 then
+0095            begin                     { Error: tabulación incorrecta }
+0096                 case ord (readkey) of
+0097                     72: inc (year);
+0098                     80: dec (year);
+0099                     77:
+0100                     if mes<11 then   { Error: indentación incorrecta del if anidado }
+0101                        begin         { Error: tabulación incorrecta }
+0102                             inc (mes);
+0103                         end	        { Error: tabulación incorrecta }
+0104                     else             { Error: tabulación incorrecta }
+0105                        begin         { Error: tabulación incorrecta }
+0106                             inc (year);
+0107                             mes := 0;
+0108                         end;
+0109                     75:
+0110                         if mes <> 0 then
+0111                             begin
+0112                                 dec (mes);
+0113                             end
+0114                         else
+0115                            begin     { Error: tabulación incorrecta }
+0116                                 dec (year);
+0117                                 mes := 11;
+0118                             end;
+0119                 end;
+0120           end;	                     { Error: tabulación incorrecta }
+0121     end;                            { Error: no corresponde con ningún begin }
+0122     until tecla = 27;
+0123     //comentario al final     { Error: comentario con estilo incorrecto }
+0124 end. { Error: comentario después del end. }
+
+============== ERRORES ENCONTRADOS ==============
+Error 333. Línea 0026. Asignacion ':=' debe tener espacios antes y despues (ej. 'i := 1')
+Error 333. Línea 0056. Asignacion ':=' debe tener espacios antes y despues (ej. 'i := 1')
