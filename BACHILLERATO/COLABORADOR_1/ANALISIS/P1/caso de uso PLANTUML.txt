@@ -1,0 +1,72 @@
+@startuml
+left to right direction
+
+title Diagrama de Casos de Uso  
+title Sistema: Red de Bibliotecas Interconectadas 
+
+actor "Usuario/Lector afiliado" as Usuario
+actor "Gestor de Red de Bibliotecas Interconectadas" as Gestor
+actor "Personal de biblioteca" as Personal
+
+rectangle "Red de Bibliotecas Interconectadas " {
+
+    ' Casos de uso de Usuario/Lector afiliado
+    usecase "Iniciar sesión en la aplicación" as UC_LoginUsuario
+    usecase "Registrar datos personales del usuario" as UC_RegistrarDatos
+    usecase "Pagar afiliación o renovación de la cuenta" as UC_PagarAfiliacion
+    usecase "Visualizar libros disponibles por biblioteca" as UC_VerLibros
+    usecase "Buscar libros en la red de bibliotecas" as UC_BuscarLibros
+    usecase "Visualizar mapa de ubicaciones de bibliotecas" as UC_MapaUbicaciones
+    usecase "Solicitar préstamo de libros" as UC_SolicitarPrestamo
+    usecase "Reservar libros en la red" as UC_ReservarLibros
+    usecase "Solicitar traslado de libros entre bibliotecas" as UC_SolicitarTraslado
+
+    ' Casos de uso de Gestor de RedBiIn
+    usecase "Iniciar sesión en el sistema de gestión" as UC_LoginGestor
+    usecase "Gestionar información de bibliotecas de la red" as UC_GestionBibliotecas
+    usecase "Gestionar información de libros disponibles en la red" as UC_GestionLibros
+    usecase "Gestionar personal autorizado en bibliotecas" as UC_GestionPersonal
+    usecase "Generar informes y reportes para la toma de decisiones" as UC_GenerarInformes
+
+    ' Casos de uso de Personal de biblioteca
+    usecase "Iniciar sesión en el sistema" as UC_LoginPersonal
+    usecase "Revisar lista de libros disponibles en la red y sus ubicaciones" as UC_ListarLibros
+    usecase "Visualizar historial de préstamos por biblioteca y usuario" as UC_HistorialPrestamos
+    usecase "Consultar estado de usuarios/lectores afiliados" as UC_VerEstadoUsuarios
+    usecase "Registrar nuevos préstamos de libros" as UC_RegistrarPrestamos
+    usecase "Registrar devoluciones de libros" as UC_RegistrarDevoluciones
+    usecase "Registrar pagos en ventanilla (afiliación, multas, préstamos)" as UC_PagosVentanilla
+}
+
+' Relaciones Usuario/Lector afiliado
+Usuario --> UC_LoginUsuario
+Usuario --> UC_RegistrarDatos
+Usuario --> UC_PagarAfiliacion
+Usuario --> UC_VerLibros
+Usuario --> UC_BuscarLibros
+Usuario --> UC_MapaUbicaciones
+Usuario --> UC_SolicitarPrestamo
+Usuario --> UC_ReservarLibros
+Usuario --> UC_SolicitarTraslado
+
+' Relaciones Gestor de RedBiIn
+Gestor --> UC_LoginGestor
+Gestor --> UC_GestionBibliotecas
+Gestor --> UC_GestionLibros
+Gestor --> UC_GestionPersonal
+Gestor --> UC_GenerarInformes
+
+' Relaciones Personal de biblioteca
+Personal --> UC_LoginPersonal
+Personal --> UC_ListarLibros
+Personal --> UC_HistorialPrestamos
+Personal --> UC_VerEstadoUsuarios
+Personal --> UC_RegistrarPrestamos
+Personal --> UC_RegistrarDevoluciones
+Personal --> UC_PagosVentanilla
+
+' Pie de página oficial
+footer **Elaborado por FRANCISCO CAMPOS SANDI**
+
+@enduml
+
